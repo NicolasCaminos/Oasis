@@ -1,0 +1,31 @@
+
+/* selector universal */
+* { 
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background-color: whitesmoke;
+  }
+/* Logo */
+img {
+    height:50spx;
+    width: 128px;
+    display: inline-block;
+}
+
+/*  NAV */
+ li {
+    display: inline-block;
+
+}
+
+.menu {
+    text-align: left;
+    font-size: 20px;
+    display: inline-block;
+}
+header{
+
+}
