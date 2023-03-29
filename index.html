@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <title>Oasis</title>
 </head>
 <!-- Comienza el body -->
@@ -18,47 +19,73 @@
         <!-- fila de logo + nav -->
         <nav class="menu">
             <ul>
-                <img src="/images/oasis_logo.svg.png" class="oasis_logo" alt="Home">
+                <img title="Home" src="/images/oasis_logo.svg.png" class="oasis_logo">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a title="Home" href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="/pages/historia.html">Historia</a>
+                    <a title="Historia" href="/pages/historia.html">Historia</a>
                 </li>
                 <li>
-                    <a href="/pages/contacto.html">Contacto</a>
+                    <a title="Contacto" href="/pages/contacto.html">Contacto</a>
                 </li>
                 <li>
-                    <a href="/pages/discografia.html">Discografía</a>
+                    <a title="Discografía" href="/pages/discografia.html">Discografía</a>
                 </li>
                 <li>
-                    <a href="/pages/galeria.html">Galería</a>
+                    <a title="Galería" href="/pages/galeria.html">Galería</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <div class="container"> 
+    <main class="container">
         <!-- Carrusel -->
-        <section>
+        <section class="section_secondary">
             <article>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, nihil nesciunt dolores
-                    reiciendis quis distinctio voluptatum laudantium soluta, magnam quos optio, voluptatibus mollitia?
-                    Fuga, voluptates. Ducimus error quas illo sequi.</p>
+                <div class="art_galery">
+                    <img class="picindex"
+                        src="https://oasisinet.com/wp-content/uploads/2022/07/OasisBeHereNowWEB-768x768.jpg" alt="">
             </article>
+            <div class="btnTienda">
+                <a type="button" class="btn btn-primary" href="/pages/discografia.html">Discografía</a>
+            </div>
+            </div>
+
             <article>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, nihil nesciunt dolores
-                    reiciendis quis distinctio voluptatum laudantium soluta, magnam quos optio, voluptatibus mollitia?
-                    Fuga, voluptates. Ducimus error quas illo sequi.</p>
+                <div class="art_youtube">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/jySfU10IQu4"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+
             </article>
+
             <article>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, nihil nesciunt dolores
-                    reiciendis quis distinctio voluptatum laudantium soluta, magnam quos optio, voluptatibus mollitia?
-                    Fuga, voluptates. Ducimus error quas illo sequi.</p>
+                <div class="art_galesry">
+                    <img src="https://oasisinet.com/wp-content/uploads/2022/07/OasisBeHereNowWEB-768x768.jpg" alt="">
             </article>
-        </section>    
-    </div>
+
+        </section>
+    </main>
     <footer>
-        <p> Nicolas Maximiliano Caminos © 2023 </p>
+        <div class="piedepagina">
+            <p> Nicolas Maximiliano Caminos © 2023 </p>
+        </div>
+        <ul class="socialmedia">
+            <li>
+                <a title="github" class="bi bi-github" href="https://github.com/NicolasCaminos/Oasis"></a>
+            </li>
+            <li>
+                <a title="linkedin" class="bi bi-linkedin" href="https://www.linkedin.com/in/nicolascaminos/"></a>
+            </li>
+            <li>
+                <a title="Whatsapp" class="bi bi-whatsapp" href="https://api.whatsapp.com/send?phone=3517075862"></a>
+            </li>
+            <li>
+                <a title="Youtube" class="bi bi-youtube"
+                    href="https://www.youtube.com/channel/UCUDVBtnOQi4c7E8jebpjc9Q"></a>
+            </li>
+        </ul>
     </footer>
 </body>
 

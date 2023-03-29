@@ -1,22 +1,19 @@
-
+/* Aplica toda las secciones: index.html- galeria - contacto - historia- discografía*/
 /* selector universal */
-* { 
+* {
     margin: 0;
     padding: 0;
 
 }
-body {
-    background-color: whitesmoke;
-  }
+
 /* Logo */
 img {
-    height:50spx;
+    height: 50spx;
     width: 128px;
-    display: inline-block;
 }
 
 /*  NAV */
- li {
+li {
     display: inline-block;
 
 }
@@ -24,8 +21,32 @@ img {
 .menu {
     text-align: left;
     font-size: 20px;
-    display: inline-block;
 }
-header{
 
+:is(footer, nav) {
+    background-color: rgb(219, 255, 253);
 }
+
+.socialmedia {
+    text-align: right;
+    margin: 0px;
+}
+
+/*  Index */
+:is(.art_shop,.art_youtube,.art_galery,.btnTienda){
+    margin: 10px;
+    text-align: center
+}
+
+.picindex{
+    height: 400px;
+    width: 400px;
+}
+
+.btnTienda{
+    height: 40px;
+    width: 271px;
+    margin-left: 350px;
+}
+
+
