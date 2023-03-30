@@ -38,7 +38,7 @@ li {
 /*  Index */
 :is(.art_shop, .art_youtube, .art_galery, .btnTienda, .art_galerys) {
     margin: 10px;
-    text-align: center
+    text-align: center;
 }
 
 .picindex {
@@ -54,7 +54,9 @@ li {
 
 
 .piedepagina {
+    font-size: 10px;
     font-family: 'Nunito Sans', sans-serif
+
 }
 
 .btnShop {
@@ -74,4 +76,11 @@ li {
 .btn {
     display: inline-block;
         margin-left: 650px;
+}
+
+.pArticle{
+    font-size: 30px;
+    text-align: center;
+        font-family: 'Nunito Sans', sans-serif
+    
 }
