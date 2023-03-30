@@ -56,9 +56,7 @@ li {
 .piedepagina {
     font-size: 10px;
     font-family: 'Nunito Sans', sans-serif
-
 }
-
 .btnShop {
     height: 40px;
     width: 271px;
@@ -73,14 +71,14 @@ li {
 .footer_back {
     margin-top: 50px;
 }
+
 .btn {
     display: inline-block;
-        margin-left: 650px;
+    margin-left: 650px;
 }
 
-.pArticle{
+.pArticle {
     font-size: 30px;
     text-align: center;
-        font-family: 'Nunito Sans', sans-serif
-    
+    font-family: 'Nunito Sans', sans-serif
 }
