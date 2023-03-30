@@ -10,7 +10,8 @@ Prototipo de la web para tener una idea clara del resultado al que quieres llega
 Prototipo de la web 
 Wireframe/prototipo (wireframe de todas tus páginas para vista mobile y desktop)
 
-Maquetar la web: utilizar los tags, en especial los semánticos, para describir la estructura de la web desde el código. Herramientas usadas:
+Maquetar la web: utilizar los tags, en especial los semánticos, para describir la estructura de la web desde el código. 
+Herramientas usadas:
 HTML (uso de etiquetas contenedoras, etiquetas multimedia y etiquetas de texto)
 
 Estilo inicial: comenzar a darle estilo básico a la web aplicando: 
