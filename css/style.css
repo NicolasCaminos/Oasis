@@ -6,7 +6,7 @@
 * {
     margin: 0;
     padding: 0;
-
+    align-items: center;
 }
 
 /* Logo */
@@ -36,24 +36,42 @@ li {
 }
 
 /*  Index */
-:is(.art_shop,.art_youtube,.art_galery,.btnTienda){
+:is(.art_shop, .art_youtube, .art_galery, .btnTienda, .art_galerys) {
     margin: 10px;
     text-align: center
 }
 
-.picindex{
+.picindex {
     height: 400px;
     width: 400px;
 }
 
-.btnTienda{
+.btndiscografia {
     height: 40px;
     width: 271px;
-    margin-left: 550px;
+
 }
 
 
 .piedepagina {
-font-family: 'Nunito Sans', sans-serif
+    font-family: 'Nunito Sans', sans-serif
+}
 
+.btnShop {
+    height: 40px;
+    width: 271px;
+
+}
+
+.art_galerys {
+    height: 200px;
+    width: 450px;
+}
+
+.footer_back {
+    margin-top: 50px;
+}
+.btn {
+    display: inline-block;
+        margin-left: 650px;
 }
