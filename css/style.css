@@ -1,4 +1,7 @@
+/* Importamos fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
 /* Aplica toda las secciones: index.html- galeria - contacto - historia- discografía*/
+
 /* selector universal */
 * {
     margin: 0;
@@ -46,7 +49,11 @@ li {
 .btnTienda{
     height: 40px;
     width: 271px;
-    margin-left: 350px;
+    margin-left: 550px;
 }
 
 
+.piedepagina {
+font-family: 'Nunito Sans', sans-serif
+
+}
