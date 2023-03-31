@@ -12,7 +12,7 @@
 
 .container {
     margin: 10px;
-    display: flex;
+    display: inline-block;
 }
 
 /*  NAV */
@@ -55,15 +55,21 @@ li {
     text-align: center;
 
 }
-:is(.section_primary,
-.section_secondary){
-    display: flex;
-}
 .btn {
     text-align: center;
     margin: 10px;
 }
 
+.section_secondary {
+    display: flex;
+    margin: 10px;
+}
+.column {
+    background-color: beige;
+        height: auto;
+            width: auto;
+
+}
 :is(.parrafodiscografia, .parrafoyoutube, .parrafotienda) {
     font-size: 10px;
     text-align: center;
