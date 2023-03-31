@@ -6,13 +6,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     align-items: center;
 }
 
-/* Logo */
-img {
-    height: 50spx;
-    width: 128px;
+.container {
+    margin: 10px;
+    display: flex;
 }
 
 /*  NAV */
@@ -23,62 +23,59 @@ li {
 
 .menu {
     text-align: left;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 :is(footer, nav) {
     background-color: rgb(219, 255, 253);
 }
 
+.picture-logo {
+    height: 80px;
+    width: 100px;
+}
+
+/* Body*/
 .socialmedia {
     text-align: right;
     margin: 0px;
 }
 
-/*  Index */
-:is(.art_shop, .art_youtube, .art_galery, .btnTienda, .art_galerys) {
+:is(.picture-col1, .picture-col3) {
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+}
+
+/*  multimedia */
+:is(.column-2, .column-3, .column-1) {
+    height: auto;
+    width: auto;
     margin: 10px;
     text-align: center;
-}
-
-.picindex {
-    height: 400px;
-    width: 400px;
-}
-
-.btndiscografia {
-    height: 40px;
-    width: 271px;
 
 }
+:is(.section_primary,
+.section_secondary){
+    display: flex;
+}
+.btn {
+    text-align: center;
+    margin: 10px;
+}
 
+:is(.parrafodiscografia, .parrafoyoutube, .parrafotienda) {
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif
+}
 
+/*Footer*/
 .piedepagina {
     font-size: 10px;
     font-family: 'Nunito Sans', sans-serif
 }
-.btnShop {
-    height: 40px;
-    width: 271px;
 
-}
-
-.art_galerys {
-    height: 200px;
-    width: 450px;
-}
-
-.footer_back {
-    margin-top: 50px;
-}
-
-.btn {
-    display: inline-block;
-    margin-left: 650px;
-}
-
-.pArticle {
-    font-size: 30px;
-    text-align: center;
-    font-family: 'Nunito Sans', sans-serif
+footer{
+    margin: 10px;
 }
