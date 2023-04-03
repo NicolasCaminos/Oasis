@@ -11,14 +11,13 @@
 }
 
 .container {
-    margin: 10px;
+    margin: 20px;
     display: inline-block;
 }
 
 /*  NAV */
 li {
-    display: inline-block;
-
+    display: inline-flex;
 }
 
 .menu {
@@ -35,7 +34,7 @@ li {
     width: 100px;
 }
 
-/* Body*/
+/* INDEX.HTML */
 .socialmedia {
     text-align: right;
     margin: 0px;
@@ -55,6 +54,7 @@ li {
     text-align: center;
 
 }
+
 .btn {
     text-align: center;
     margin: 10px;
@@ -64,12 +64,14 @@ li {
     display: flex;
     margin: 10px;
 }
+
 .column {
     background-color: beige;
-        height: auto;
-            width: auto;
+    height: auto;
+    width: auto;
 
 }
+
 :is(.parrafodiscografia, .parrafoyoutube, .parrafotienda) {
     font-size: 10px;
     text-align: center;
@@ -82,6 +84,14 @@ li {
     font-family: 'Nunito Sans', sans-serif
 }
 
-footer{
+footer {
     margin: 10px;
 }
+
+/* CONTACTO.HTML */
+
+/* HISTORIA.HTML */
+
+/* DISCOGRAFÍA.HTML */
+
+/* GALERIA.HTML */
