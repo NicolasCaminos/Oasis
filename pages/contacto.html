@@ -14,12 +14,12 @@
 </head>
 <!-- Comienza el body -->
 
-<body>
-    <header>
+<body class="contact">
+    <header class="cabecera">
         <!-- fila de logo + nav -->
         <nav class="menu">
+            <img src="../images/oasis_logo.png" alt="" srcset="">
             <ul>
-                <img title="oasis-logo" src="../images/oasis_logo.png" class="picture-logo">
                 <li>
                     <a href="../index.html">Inicio</a>
                 </li>
@@ -35,45 +35,48 @@
                 <li>
                     <a title="Galería" href="galeria.html">Galería</a>
                 </li>
-                </ul>
-                </nav>
-                </header>
-                <main class="container">
-                    <!-- Primera sección del Carrusel -->
-                    <section class="section_primary">
-                    </section>
-                    <!-- Segunda sección -->
-                    <section class="formulario">
-                        <form action="#" method="post">
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
-                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre y apellido">
-                            </div>
-                            <div class="mb-3">
-                                <div class="mb-3">
-                                    <label for="exampleFormControlInput1" class="form-label">Teléfono</label>
-                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="+54xxxxxxxxxx">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                                </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                        </form>
-                    </section>
-                    </main>
-                    
-                    <!--Comienza footer*/-->
-                    <footer class="footer_back">
-                        <div class="piedepagina">
-                            <p class="pFooter"> Nicolas Maximiliano Caminos © 2023 </p>
+            </ul>
+        </nav>
+        <div class="cabecera-info-contacto">
+            <div class="cabecera-info-textos-contacto">
+                <div class="cabecera-contacto">
+                    <h1>CONTACT US!! </h1>
+                </div>
+    </header>
+    <main class="container">
+        <!-- Segunda sección -->
+        <section class="seccion-formulario">
+            <form action="#" method="post">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Nombre y apellido">
+                </div>
+                <div class="mb-3">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Teléfono</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                            placeholder="+54xxxxxxxxxx">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-primary" type="button">Send</button>
+                    </div>
+            </form>
+        </section>
+    </main>
+    <!--Comienza footer*/-->
+    <footer class="footerContact">
+        <div>
+            <p class="pFooter"> Nicolas Maximiliano Caminos © 2023 </p>
         </div>
         <ul class="socialmedia">
             <li>
@@ -92,4 +95,5 @@
         </ul>
     </footer>
 </body>
+
 </html>

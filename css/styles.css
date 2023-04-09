@@ -1,94 +1,287 @@
 /* Importamos fuentes */
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap');
 /* Aplica toda las secciones: index.html- galeria - contacto - historia- discografía*/
 
 /* selector universal */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.cabecera {
+    height: auto;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+
+img {
+    height: 85%;
+    width: 10%;
+}
+
+nav {
+    justify-content: space-around;
+    height: 70px;
+}
+
+nav ul {
+    list-style: none;
+    gap: 25px;
     align-items: center;
+
 }
 
-.container {
-    margin: 20px;
-    display: inline-block;
-}
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
 
-/*  NAV */
-li {
-    display: inline-flex;
 }
 
 .menu {
-    text-align: left;
-    font-size: 15px;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    height: 70px;
+    position: fixed;
+    width: 100%;
 }
 
-:is(footer, nav) {
-    background-color: rgb(219, 255, 253);
+.cabecera-info {
+    justify-content: space-around;
+    align-items: center;
+    white-space: nowrap;
 }
 
-.picture-logo {
-    height: 80px;
-    width: 100px;
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    margin: 30px 0;
+    font: 22px sans-serif;
+    background: var(--body-bg-color);
+    color: var(--text-color);
+}
+
+hr {
+    border-color: var(--hr-color);
+    margin: 20px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin-right: 70px;
+    color: #ffff;
+}
+
+.menu a {
+    position: relative;
+    display: block;
+    padding: 5px;
+    border: 0px solid;
+}
+
+.menu a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #b47dcd, #e878a2, #eb85ab);
+    z-index: 1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease-in-out;
+}
+
+.menu li:hover::before {
+    transform: scaleX(1);
+}
+
+.menu li {
+    position: relative;
+    display: block;
+    padding: 5px;
+    border: 0px solid;
+}
+
+.menu li::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #b47dcd, #e878a2, #eb85ab);
+    z-index: 1;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+}
+
+.menu a:hover::before {
+    transform: scaleX(1);
+}
+
+
+/* ANIMATIONS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.menu[data-animation="to-left"] a::before {
+    transform-origin: right;
+}
+
+.menu[data-animation="center"] a::before {
+    transform-origin: center;
+}
+
+.menu[data-animation="bonus"] a::before {
+    transform-origin: right;
+}
+
+.menu[data-animation="bonus"] a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.82, 0.94);
+}
+
+/*PSEDO CLASES*/
+:is(.container, .cabecera-info, .menu, .seccion-dos, .cabecera, nav ul,
+    nav, ul, footer) {
+    display: flex;
+}
+
+:is(.cabecera-info-textos, .cabecera-info-texto-2) {
+    color: rgb(0, 0, 49);
+    width: 90%;
+    margin-top: 5%;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* INDEX.HTML */
-.socialmedia {
-    text-align: right;
-    margin: 0px;
+.container {
+    padding-top: 100px;
+    margin-top: 550px;
+    width: 80%;
+    height: 100vh;
+    grid-template-rows: 60px 100px 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "titulo titulo titulo titulo"
+        "descripcion descripcion descripcion descripcion"
+        "card card card card";
 }
 
-:is(.picture-col1, .picture-col3) {
-    height: 350px;
-    width: 350px;
-    display: inline-block;
+.seccion-uno h3 {
+    grid-area: titulo;
 }
 
-/*  multimedia */
-:is(.column-2, .column-3, .column-1) {
-    height: auto;
-    width: auto;
-    margin: 10px;
-    text-align: center;
-
+.seccion-uno p {
+    grid-area: descripcion;
 }
 
-.btn {
-    text-align: center;
-    margin: 10px;
-}
-
-.section_secondary {
-    display: flex;
-    margin: 10px;
-}
-
-.column {
-    background-color: beige;
-    height: auto;
-    width: auto;
+.seccion-uno {
+    display: block;
 
 }
 
-:is(.parrafodiscografia, .parrafoyoutube, .parrafotienda) {
-    font-size: 10px;
-    text-align: center;
-    font-family: 'Nunito Sans', sans-serif
+.seccion-dos {
+    margin-top: 10%;
+    grid-area: card;
+}
+
+.section-uno-item {
+    display: block;
+    gap: 20px;
+    margin-top: 90px;
+}
+
+:is(h1, h2) {
+    display: inline;
+}
+
+.image-disc {
+    height: 70%;
+    width: 70%;
 }
 
 /*Footer*/
-.piedepagina {
-    font-size: 10px;
-    font-family: 'Nunito Sans', sans-serif
-}
 
 footer {
-    margin: 10px;
+    padding-top: 100px;
+    margin-top: 80%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: beige;
+    font-size: 18px;
+}
+
+footer ul {
+    list-style: none;
+    gap: 25px;
+    align-items: self-end;
+}
+
+footer li a {
+    text-decoration: none;
+    font-size: 25px;
 }
 
 /* CONTACTO.HTML */
+.seccion-formulario {
+    float: inline-start;
+    width: 100%;
+    margin-top: 0;
+    height: 90px;
+}
+
+.cabecera-contacto {
+    position: static;
+    display: flex;
+    background-color: black;
+    color: beige;
+    height: 300px;
+    margin-top: 100px;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cabecera-contacto h1 {
+    margin-top: 100px
+}
+
+.contact .container {
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.footerContact {
+    position: static;
+    width: 100%;
+    height: 50%;
+    margin-top: 0%;
+    background-color: black;
+    color: beige;
+    font-size: 18px;
+}
+
 
 /* HISTORIA.HTML */
 
