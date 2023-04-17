@@ -215,7 +215,7 @@ footer li a {
     font-size: 25px;
 }
 
-@media screen and (max-width:426px) {
+@media screen and (min-width:425px) {
     body::-webkit-scrollbar {
         width: 2px;
         height: 10px;
