@@ -268,7 +268,7 @@
     }
 }
 
-@media screen and (min-height: 1080px) {
+@media screen and (max-height: 1080px) {
     body::-webkit-scrollbar {
         width: 2px;
         height: 10px;
