@@ -1,7 +1,6 @@
-/* Importamos fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap');
 
-@media screen and (max-width:1024px) {
+@media screen and (min-width:1024px) {
 
     /*Variables reutilizables*/
     :root {
@@ -190,7 +189,7 @@
         width: 8%;
         height: 4%;
         left: 50%;
-        margin-top: 30vh;
+        margin-top: 80vh;
         position: relative;
     }
 
@@ -203,7 +202,7 @@
         color: beige;
         font-size: 18px0;
         bottom: 0px;
-        margin-top: 20vh;
+        margin-top: 50vh;
 
     }
 
