@@ -146,7 +146,7 @@
 
     .image-disc {
         height: 70%;
-        width: 70%;
+        width: 75vh;
     }
 
     /*Footer*/
@@ -215,6 +215,17 @@
 
         .seccion-dos {
             display: block;
+            max-width: fit-content;
+        }
+
+        .seccion-dos-item {
+            max-width: fit-content;
+            gap: 20px;
+        }
+
+        .image-disc {
+            height: 70%;
+            width: 35vh;
         }
 
         .carousel-inner {
@@ -222,7 +233,7 @@
         }
 
         .container {
-            height: 300vh;
+            height: 220vh;
         }
 
         .embed-iframe {
@@ -248,6 +259,6 @@
         }
 
         footer {
-            margin-top: 17vh;
+            margin-top: 0vh;
         }
     }
