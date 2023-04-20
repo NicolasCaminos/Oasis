@@ -9,7 +9,6 @@
     footer {
         background-color: black;
         color: beige;
-        margin-top: 90vh;
     }
 
     footer ul {
@@ -332,9 +331,6 @@
             margin-left: 70vh;
         }
 
-        footer {
-            margin-top: 0vh;
-        }
     }
 
     /* // X-Large devices (large desktops, 1200px and up) */
@@ -734,7 +730,7 @@
             color: beige;
             font-size: 18px0;
             bottom: 0px;
-            margin-top: 90vh;
+            margin-top: 20vh;
 
 
         }
