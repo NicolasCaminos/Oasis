@@ -6,24 +6,6 @@
         --color-efect: linear-gradient(to right, #b47dcd, #e878a2, #eb85ab);
     }
 
-    footer {
-        background-color: black;
-        color: beige;
-    }
-
-    footer ul {
-        display: flex;
-        list-style: none;
-        gap: 15px;
-        justify-content: right;
-        text-decoration: none;
-    }
-
-    footer li a {
-        text-decoration: none;
-        font-size: 25px;
-    }
-
     /* // Medium devices (tablets, 768px and up) */
     @media (min-width: 768px) {
         .seccion-dos {
