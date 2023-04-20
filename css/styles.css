@@ -6,6 +6,34 @@
         --color-efect: linear-gradient(to right, #b47dcd, #e878a2, #eb85ab);
     }
 
+    footer {
+        display: flex;
+        padding-top: 0px;
+        width: 100%;
+        height: 20vh;
+        align-items: center;
+        background-color: black;
+        color: beige;
+        font-size: 18px;
+        bottom: 0px;
+        margin-top: 105vh;
+
+
+    }
+
+    footer ul {
+        display: flex;
+        list-style: none;
+        gap: 15px;
+        justify-content: right;
+        text-decoration: none;
+    }
+
+    footer li a {
+        text-decoration: none;
+        font-size: 25px;
+    }
+
     /* // Medium devices (tablets, 768px and up) */
     @media screen and (min-width: 768px) {
         .seccion-dos {
