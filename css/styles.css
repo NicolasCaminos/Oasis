@@ -338,6 +338,11 @@
             gap: 20px;
         }
 
+        .image-disc {
+            height: 70%;
+            width: fit-content;
+        }
+
         .carousel-inner img {
             height: fit-content;
             width: fit-content;
@@ -454,9 +459,9 @@
             align-items: center;
             background-color: black;
             color: beige;
-            font-size: 18px0;
+            font-size: 18px;
             bottom: 0px;
-            margin-top: 20vh;
+            margin-top: 10vh;
 
 
         }
@@ -870,7 +875,7 @@
             align-items: center;
             background-color: black;
             color: beige;
-            font-size: 18px0;
+            font-size: 18px;
             bottom: 0px;
             margin-top: 20vh;
 
@@ -890,4 +895,9 @@
             font-size: 25px;
         }
 
+    }
+
+    .image-disc {
+        height: 70%;
+        width: 35vh;
     }
