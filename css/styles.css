@@ -210,7 +210,7 @@
         font-size: 25px;
     }
 
-    @media screen and (max-width: 800px) {
+    @media screen and (min-width: 925px) {
         .seccion-dos {
             display: block;
         }
@@ -220,7 +220,7 @@
         }
 
         .container {
-            height: 560vh;
+            height: 270vh;
         }
 
         .embed-iframe {
