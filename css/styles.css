@@ -689,7 +689,7 @@
     }
 
     /* // XX-Large devices (larger desktops, 1400px and up) */
-    @media (min-width: 1400px) {
+    @media (min-height: 1400px) {
 
 
         /* selector universal y body*/
