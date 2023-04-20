@@ -12,6 +12,19 @@
         margin-top: 90vh;
     }
 
+    footer ul {
+        display: flex;
+        list-style: none;
+        gap: 15px;
+        justify-content: right;
+        text-decoration: none;
+    }
+
+    footer li a {
+        text-decoration: none;
+        font-size: 25px;
+    }
+
     /* // Medium devices (tablets, 768px and up) */
     @media (min-width: 768px) {
         .seccion-dos {
@@ -294,7 +307,7 @@
         }
 
         .container {
-            height: 560vh;
+            height: 100%;
         }
 
         .embed-iframe {
@@ -578,7 +591,7 @@
         .container {
             margin-top: 50px;
             width: 100%;
-            height: 390vh;
+            height: 100%;
             justify-content: center;
         }
 
