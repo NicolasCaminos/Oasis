@@ -11,6 +11,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        align-items: center;
     }
 
     body {
@@ -46,19 +47,18 @@
 
     /* INDEX.HTML */
     .container {
-        padding-top: 100px;
         margin-top: 50px;
         width: 100%;
         height: 390vh;
         justify-content: center;
     }
 
-    .cabecera-info-textos h1 {
-        justify-content: center;
+    .cabecera-info-textos {
+        text-align: center;
+        gap: 50px;
     }
 
     .seccion-uno {
-        margin-top: 50px;
         width: 100%;
     }
 
@@ -210,7 +210,9 @@
         font-size: 25px;
     }
 
-    @media screen and (min-width: 925px) {
+    @media screen and (max-width: 600px),
+    screen and (max-width: 1080px) {
+
         .seccion-dos {
             display: block;
         }
@@ -220,7 +222,7 @@
         }
 
         .container {
-            height: 270vh;
+            height: 300vh;
         }
 
         .embed-iframe {
@@ -232,7 +234,7 @@
             display: flex;
             overflow-x: scroll;
             gap: 50px;
-            width: 350px;
+            width: 300px;
             align-items: center;
             height: 450px;
             margin-left: 15vh;
@@ -241,11 +243,11 @@
 
         #div_suscribe-info-button {
             position: relative;
-            margin-top: 30vh;
-            margin-left: 40vh;
+            margin-top: 25vh;
+            margin-left: 20vh;
         }
 
         footer {
-            margin-top: 37vh;
+            margin-top: 17vh;
         }
     }
