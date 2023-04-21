@@ -217,7 +217,7 @@
 
         .image-disc {
             height: 30%;
-            width: 45vh;
+            width: 65%;
         }
 
         .embed-iframe-items {
@@ -239,7 +239,7 @@
     @media (min-width: 576px) {
 
         .carousel-inner {
-            margin-left: 5vh;
+            margin-left: 2%s;
         }
 
         .seccion-dos {
@@ -248,11 +248,10 @@
 
         .embed-iframe-items {
             width: 30%;
-
         }
 
         #div_suscribe-info-button {
-            margin-left: 70vh;
+            margin-left: 20%;
         }
 
         footer {
