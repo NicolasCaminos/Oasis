@@ -58,7 +58,7 @@
     }
 
     .seccion-uno {
-        max-width: fit-content;
+        width: fit-content;
     }
 
     .seccion-dos {
@@ -75,7 +75,7 @@
 
     .image-disc {
         height: 50%;
-        max-width: fit-content;
+        width: fit-content;
     }
 
     .carousel-inner img {
@@ -110,9 +110,10 @@
         display: flex;
         overflow-x: scroll;
         gap: 50px;
-        max-width: fit-content;
+        width: 1%;
         align-items: center;
         height: 450px;
+        margin-left: 2%;
     }
 
     .embed-iframe-items::-webkit-scrollbar {
@@ -175,6 +176,7 @@
     #div_suscribe-info-button {
         position: relative;
         margin-top: 40vh;
+        margin-left: 30%;
     }
 
     footer {
@@ -237,7 +239,7 @@
     @media (min-width: 576px) {
 
         .carousel-inner {
-            margin-left: 2%s;
+            margin-left: 2%;
         }
 
         .seccion-dos {
