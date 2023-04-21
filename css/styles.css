@@ -58,7 +58,7 @@
     }
 
     .seccion-uno {
-        width: 100%;
+        width: fit-content;
     }
 
     .seccion-dos {
@@ -95,7 +95,7 @@
     }
 
     div .article_video {
-        width: 75%;
+        width: fit-content;
         display: -webkit-box;
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
@@ -110,7 +110,7 @@
         display: flex;
         overflow-x: scroll;
         gap: 50px;
-        width: 950px;
+        width: fit-content;
         align-items: center;
         height: 450px;
         margin-left: 15vh;
@@ -132,7 +132,6 @@
     }
 
     .carousel-inner {
-        margin-left: 25vh;
         max-width: 50rem;
         max-height: 50rem;
         background: fixed center center scroll;
