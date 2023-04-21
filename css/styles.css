@@ -58,7 +58,7 @@
     }
 
     .seccion-uno {
-        width: fit-content;
+        max-width: fit-content;
     }
 
     .seccion-dos {
@@ -75,7 +75,7 @@
 
     .image-disc {
         height: 50%;
-        width: fit-content;
+        max-width: fit-content;
     }
 
     .carousel-inner img {
@@ -110,10 +110,9 @@
         display: flex;
         overflow-x: scroll;
         gap: 50px;
-        width: 1%;
+        max-width: fit-content;
         align-items: center;
         height: 450px;
-        margin-left: 2%;
     }
 
     .embed-iframe-items::-webkit-scrollbar {
@@ -176,7 +175,6 @@
     #div_suscribe-info-button {
         position: relative;
         margin-top: 40vh;
-        margin-left: 30%;
     }
 
     footer {
