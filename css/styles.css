@@ -176,7 +176,7 @@
     #div_suscribe-info-button {
         position: relative;
         margin-top: 40vh;
-        margin-left: 20%;
+        margin-left: 30%;
     }
 
     footer {
@@ -205,35 +205,6 @@
         font-size: 25px;
     }
 
-    @media (max-width: 975px) {
-        .carousel-inner {
-            margin-left: 1vh;
-        }
-
-        .seccion-dos {
-            display: block;
-
-        }
-
-        .image-disc {
-            height: 30%;
-            width: 45vh;
-        }
-
-        .embed-iframe-items {
-            width: 30%;
-
-        }
-
-        #div_suscribe-info-button {
-            margin-left: 30%;
-        }
-
-        footer {
-
-            max-width: fit-content;
-        }
-    }
 
     /* // Small devices (landscape phones, 576px and up) */
     @media (min-width: 576px) {
@@ -252,7 +223,7 @@
         }
 
         #div_suscribe-info-button {
-            display: none;
+            margin-left: 70vh;
         }
 
         footer {
