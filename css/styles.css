@@ -74,7 +74,7 @@
     }
 
     .image-disc {
-        height: 70%;
+        height: 50%;
         width: fit-content;
     }
 
@@ -110,11 +110,10 @@
         display: flex;
         overflow-x: scroll;
         gap: 50px;
-        width: fit-content;
+        width: 5%;
         align-items: center;
         height: 450px;
         margin-left: 15vh;
-
     }
 
     .embed-iframe-items::-webkit-scrollbar {
