@@ -110,7 +110,7 @@
      display: flex;
      overflow-x: scroll;
      gap: 50px;
-     width: 1%;
+     width: 300px;
      align-items: center;
      height: 450px;
      margin-left: 2%;
