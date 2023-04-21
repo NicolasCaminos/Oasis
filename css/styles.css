@@ -251,6 +251,10 @@
 
         }
 
+        #div_suscribe-info-button {
+            display: none;
+        }
+
         footer {
             height: 40vh;
         }
