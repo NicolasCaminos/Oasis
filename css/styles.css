@@ -74,7 +74,7 @@
     }
 
     .image-disc {
-        height: 70%;
+        height: 50%;
         width: fit-content;
     }
 
@@ -110,10 +110,10 @@
         display: flex;
         overflow-x: scroll;
         gap: 50px;
-        width: 5%;
+        width: 1%;
         align-items: center;
         height: 450px;
-        margin-left: 15vh;
+        margin-left: 2%;
     }
 
     .embed-iframe-items::-webkit-scrollbar {
@@ -176,7 +176,7 @@
     #div_suscribe-info-button {
         position: relative;
         margin-top: 40vh;
-        margin-left: 40vh;
+        margin-left: 30%;
     }
 
     footer {
@@ -221,12 +221,12 @@
         }
 
         .embed-iframe-items {
-            width: 55vh;
+            width: 30%;
 
         }
 
         #div_suscribe-info-button {
-            margin-left: 50vh;
+            margin-left: 30%;
         }
 
         footer {
@@ -247,8 +247,12 @@
         }
 
         .embed-iframe-items {
-            width: 350px;
+            width: 30%;
 
+        }
+
+        #div_suscribe-info-button {
+            margin-left: 70vh;
         }
 
         footer {
