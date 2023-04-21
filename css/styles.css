@@ -207,7 +207,7 @@
         font-size: 25px;
     }
 
-    @media (max-width: 575.98px) {
+    @media (max-width: 975px) {
         .carousel-inner {
             margin-left: 1vh;
         }
@@ -229,6 +229,11 @@
 
         #div_suscribe-info-button {
             margin-left: 50vh;
+        }
+
+        footer {
+
+            max-width: fit-content;
         }
     }
 
