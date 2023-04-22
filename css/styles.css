@@ -134,12 +134,14 @@
  footer ul {
      display: flex;
      list-style: none;
+     gap: 15px;
      justify-content: right;
      text-decoration: none;
  }
 
  footer li a {
      text-decoration: none;
+     font-size: 25px;
  }
 
  /* // Small devices (landscape phones, 576px and up) */
@@ -159,13 +161,8 @@
      }
 
      footer {
-         display: flex;
-         padding-top: 0px;
          width: 100%;
          height: 20vh;
-         align-items: center;
-         background-color: black;
-         color: beige;
      }
 
      footer ul {
@@ -178,7 +175,7 @@
 
      footer li a {
          text-decoration: none;
-         font-size: 25px;
+         font-size: 15px;
      }
  }
 
