@@ -1,4 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
 
  /*Variables reutilizables*/
  :root {
@@ -122,6 +123,10 @@
      text-align: center;
      gap: 50px;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ .btn-outline-dark {
+     background-color: #fff;
  }
 
  footer {
@@ -258,6 +263,7 @@
 
  /* // X-Large devices (large desktops, 1200px and up)*/
  @media (min-width: 1400px) {
+
      .carousel-inner {
          margin-left: 30vh;
      }
@@ -312,4 +318,44 @@
          text-decoration: none;
          font-size: 20px;
      }
+ }
+
+ /*Hystory*/
+
+ .video-item {
+     position: relative;
+     width: 100%;
+
+ }
+
+ .video-item-element {
+     position: absolute;
+     width: 100%;
+ }
+
+ .logo-video {
+     position: absolute;
+     left: 30%;
+     top: 25%;
+     width: 40%;
+     height: 30%;
+ }
+
+ .text-header {
+     position: absolute;
+     left: 40%;
+     top: 75%;
+     width: 40%;
+     height: 30%;
+ }
+
+ .text-header h1 {
+     color: #fff;
+     font-family: 'Changa One',
+         cursive;
+ }
+
+ .seccion-uno-article {
+     position: relative;
+     top: 120vh;
  }
