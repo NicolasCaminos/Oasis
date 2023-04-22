@@ -145,7 +145,7 @@
  }
 
  /* // Small devices (landscape phones, 576px and up) */
- @media screen and (min-width: 576px) {
+ @media (min-width: 576px) {
 
      .carousel-inner {
          margin-left: 3vh;
@@ -201,7 +201,7 @@
      }
  }
 
- @media screen and (max-width: 975px) {
+ @media (max-width: 975px) {
      .carousel-inner {
          margin-left: 1vh;
      }
@@ -253,5 +253,63 @@
      footer li a {
          text-decoration: none;
          font-size: 15px;
+     }
+ }
+
+ /* // X-Large devices (large desktops, 1200px and up)*/
+ @media (min-width: 1400px) {
+     .carousel-inner {
+         margin-left: 30vh;
+     }
+
+     .seccion-dos {
+         display: flex;
+         gap: 30px
+     }
+
+     .image-disc {
+         height: 600px;
+         width: 600px;
+         gap: 30px
+     }
+
+     .embed-iframe-items {
+         width: 960px;
+
+     }
+
+     .pic_suscribe {
+         width: 100%;
+         height: 40%;
+     }
+
+     .div_suscribe-info-button {
+         position: relative;
+         width: 70px;
+         height: 20px;
+         top: 10vh;
+         left: 50%;
+     }
+
+     footer {
+         position: relative;
+         width: 100%;
+         height: 20vh;
+         top: 20vh;
+         font-size: 20px;
+     }
+
+     footer ul {
+         position: relative;
+         left: 60%;
+         list-style: none;
+         gap: 15px;
+         justify-content: right;
+         text-decoration: none;
+     }
+
+     footer li a {
+         text-decoration: none;
+         font-size: 20px;
      }
  }
