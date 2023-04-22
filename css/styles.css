@@ -158,7 +158,7 @@
  }
 
  /* // Small devices (landscape phones, 576px and up) */
- @media (min-width: 576px) {
+ @media screen and (min-width: 576px) {
 
      .carousel-inner {
          margin-left: 5vh;
@@ -197,7 +197,7 @@
      }
  }
 
- @media (max-width: 975px) {
+ @media screen and (max-width: 975px) {
      .carousel-inner {
          margin-left: 1vh;
      }
@@ -227,7 +227,7 @@
  }
 
  /* // X-Large devices (large desktops, 1200px and up)*/
- @media (min-width: 1200px) {
+ @media screen and(min-width: 1200px) {
 
      /* selector universal y body*/
      * {
@@ -430,7 +430,7 @@
  }
 
  /*  // XX-Large devices (larger desktops, 1400px and up)*/
- @media (min-width: 1400px) {
+ @media screen and (min-width: 1400px) {
 
      /* selector universal y body*/
      * {
