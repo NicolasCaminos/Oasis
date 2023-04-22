@@ -1,6 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap');
 
-
  /*Variables reutilizables*/
  :root {
      --color-efect: linear-gradient(to right, #b47dcd, #e878a2, #eb85ab);
@@ -68,15 +67,10 @@
  }
 
  div .article_video {
-     width: fit-content;
      display: -webkit-box;
      -webkit-line-clamp: 2;
      -webkit-box-orient: vertical;
      overflow: hidden;
- }
-
- .texto {
-     margin-top: 10vh;
  }
 
  .embed-iframe-items {
@@ -117,8 +111,6 @@
  .pic_suscribe {
      position: absolute;
      left: 0px;
-     width: 100%;
-     height: 32%;
      align-items: center;
      padding-top: 0%;
  }
@@ -126,19 +118,14 @@
  .div_suscribe-info-texto {
      background-color: #fff;
      display: flex;
-     gap: 20px;
      flex-direction: column;
      text-align: center;
      gap: 50px;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
-     width: 8%;
-     height: 4%;
  }
 
  footer {
      display: flex;
-     width: 100%;
-     height: 20vh;
      align-items: center;
      background-color: black;
      color: beige;
@@ -147,14 +134,12 @@
  footer ul {
      display: flex;
      list-style: none;
-     gap: 15px;
      justify-content: right;
      text-decoration: none;
  }
 
  footer li a {
      text-decoration: none;
-     font-size: 25px;
  }
 
  /* // Small devices (landscape phones, 576px and up) */
