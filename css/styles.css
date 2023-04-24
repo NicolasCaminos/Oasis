@@ -1,5 +1,6 @@
  @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
 
  /*Variables reutilizables*/
  :root {
@@ -264,6 +265,7 @@
  /* // X-Large devices (large desktops, 1200px and up)*/
  @media (min-width: 1400px) {
 
+     /*INDEX*/
      .carousel-inner {
          margin-left: 30vh;
      }
@@ -318,44 +320,163 @@
          text-decoration: none;
          font-size: 20px;
      }
- }
 
- /*Hystory*/
+     /*Hystory*/
 
- .video-item {
-     position: relative;
-     width: 100%;
+     .video-item {
+         position: relative;
+         width: 100%;
 
- }
+     }
 
- .video-item-element {
-     position: absolute;
-     width: 100%;
- }
+     .video-item-element {
+         position: absolute;
+         width: 100%;
+     }
 
- .logo-video {
-     position: absolute;
-     left: 30%;
-     top: 25%;
-     width: 40%;
-     height: 30%;
- }
+     .logo-video {
+         position: absolute;
+         left: 30%;
+         top: 25%;
+         width: 40%;
+         height: 30%;
+     }
 
- .text-header {
-     position: absolute;
-     left: 40%;
-     top: 75%;
-     width: 40%;
-     height: 30%;
- }
+     .text-header {
+         position: absolute;
+         left: 40%;
+         top: 75%;
+         width: 40%;
+         height: 30%;
+     }
 
- .text-header h1 {
-     color: #fff;
-     font-family: 'Changa One',
-         cursive;
- }
+     .text-header h1 {
+         color: #fff;
+         font-family: 'Changa One',
+             cursive;
 
- .seccion-uno-article {
-     position: relative;
-     top: 120vh;
+     }
+
+     .seccion-uno-article-intro {
+         position: relative;
+         top: 120vh;
+         font-family: 'Roboto Slab', serif;
+
+     }
+
+     .seccion-uno-article-intro a {
+
+         color: #000;
+         ;
+     }
+
+     .one-pic {
+         position: relative;
+         height: 300px;
+         float: right;
+         right: 40px;
+         width: 300px;
+         bottom: 150px;
+         border-width: 10px 10px 10px;
+         border-style: solid solid solid;
+
+     }
+
+     .article_video-hystory {
+         width: 70%;
+         font-size: 26px;
+     }
+
+     .article_video-hystory1 {
+         position: relative;
+         width: 70%;
+         font-size: 26px;
+         top: 30vh;
+     }
+
+     .two-pic {
+         position: relative;
+         width: 60%;
+         top: 50vh;
+         border-width: 10px 10px 10px;
+         border-style: solid solid solid;
+     }
+
+     .second-pic {
+         position: relative;
+         width: 80%;
+         top: 60vh;
+         float: right;
+         border-width: 10px 10px 10px;
+         border-style: solid solid solid;
+         transform: rotate(3deg);
+     }
+
+     .three-pic {
+         width: 30%;
+         top: 60vh;
+         float: left;
+         border-width: 10px 10px 10px;
+         border-style: solid solid solid;
+     }
+
+     .article_video-hystory2 {
+         display: inline-block;
+         position: relative;
+         width: 70%;
+         font-size: 26px;
+         top: 70vh;
+         clear: both;
+
+     }
+
+     .article_video-hystory2a {
+         display: flex;
+         width: 70%;
+         margin-left: 60vh;
+     }
+
+     .four-pic {
+         position: relative;
+         top: 30vh;
+         float: left;
+         height: 60vh;
+         border-width: 10px 10px 10px;
+         border-style: solid solid solid;
+     }
+
+     .article_video-hystory3 h3 {
+         position: absolute;
+         top: 50vh;
+         font-size: 50px;
+     }
+
+     .article_video-hystory3a {
+         position: absolute;
+         top: 140vh;
+
+     }
+
+     .five-pic {
+         position: relative;
+         top: 90vh;
+         float: left;
+         height: 60vh;
+         border-width: 10px 10px 10px;
+         border-style: solid solid solid;
+     }
+
+     .article_video-hystory4a {
+         position: absolute;
+         top: 250vh;
+
+     }
+
+     .footerhystory {
+         top: 320vh;
+     }
+
+     .footerSucribe {
+         top: 40vh;
+     }
  }
