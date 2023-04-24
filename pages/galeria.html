@@ -13,6 +13,7 @@
         crossorigin="anonymous"></script>
     <!-- CSS -->
     <link rel="stylesheet" href="../css/styles.css">
+
     <title>Oasis</title>
 </head>
 <!-- Comienza el body -->
@@ -53,147 +54,74 @@
         </nav>
     </header>
     <main class="container">
-        <div class="cabecera-info-textos">
-            <h1>THIS IS HYSTORY</h1>
-
-            <h2>OASIS' KNEBWORTH...THIS IS IT!!!!!</h2>
-            <div class="cabecera-info-texto-2">
-                <h3>Buy NOW!!</h3>
-            </div>
-        </div>
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="3000">
-                    <img src="https://img.tmstor.es/oasis/84829-207757944cdc251f7ee7951804e2412d.png"
-                        class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                    <img src="https://img.tmstor.es/oasis/84832-c0f040fa0fac87dd0fb411ca638a95e8.png"
-                        class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://img.tmstor.es/oasis/86902-5636f593bb5050f3146ebaa2df903df5.jpg"
-                        class="d-block w-100" alt="...">
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+                <label for="validationCustom01" class="form-label">First name</label>
+                <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                <div class="valid-feedback">
+                    Looks good!
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-        <!-- Segunda sección -->
-        <section class="seccion-uno">
-            <div class="section-uno-item">
-                <h3>WATCH NOW ON YouTube!</h3>
-                <iframe class="section-uno-video" width="80%" height="715"
-                    src="https://www.youtube.com/embed/gMM4lZxyevg" title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-                <h3>Champagne Supernova (Live at Knebworth, 10 August '96) · Oasis</h3>
-                <p>℗ Big Brother Recordings Ltd</p>
-                <p class="article_video">
-                    En 1996 Oasis y otras bandas llegaban al punto máximo de la Cool Britannia y
-                    del Britpop y después
-                    que su segundo álbum
-                    (What's the Story) Morning Glory? vendiera 500.000 copias solo la primera semana y 28 millones en el
-                    mundo, la banda
-                    decidió realizar el concierto más grande de la historia, Liam y Noel Gallagher tenían todo para
-                    hacerlo, y ambos
-                    lograron un momento inolvidable en la historia del rock.
-
-                    Al saberse la noticia, hubo 2,7 millones de personas que pidieron entradas, aproximadamente 1 de
-                    cada 20 personas en
-                    Inglaterra, pidió una entrada, pudiendo realizar hasta 9 conciertos consecutivos; Solo 500.000
-                    personas lo vieron.
-
-                    Oasis pudo haber tocado para millones de personas, algo impensado para cualquier banda. Sin embargo,
-                    Noel decidió sólo
-                    hacer dos conciertos.</p>
-                <div class="article_videoHystory">
-                    <a href="pages/historia.html">Conoce más de la historia en este link.</a>
+            <div class="col-md-4">
+                <label for="validationCustom02" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+                <div class="valid-feedback">
+                    Looks good!
                 </div>
             </div>
-            <div class="seccion-dos">
-                <div class="seccion-dos-item">
-                    <img src="https://oasisinet.com/wp-content/uploads/2022/05/Familiar-To-Millions-CD2-cover-500x500-2.jpg"
-                        alt="" class="image-disc">
-                    <div>
-                        <button type="button" class="btn btn-light">Tienda</button>
-                    </div>
-                </div>
-                <div class="seccion-dos-item" class="image-disc">
-                    <img src="https://img.tmstor.es/oasis/98683-28a14b5f3fbfca3c59a3852d22dade0c.png" alt=""
-                        class="image-disc">
-                    <div>
-                        <button type="button" class="btn btn-light">Discografía</button>
+            <div class="col-md-4">
+                <label for="validationCustomUsername" class="form-label">Username</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername"
+                        aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                        Please choose a username.
                     </div>
                 </div>
             </div>
-            <div class="texto">
-                <h3>Listen to Oasis</h3>
-            </div>
-            <div class="embed-iframe">
-                <div class="embed-iframe-items">
-                    <iframe class="embed-iframe-items1" style="border-radius:12px"
-                        src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO1vHAZO?utm_source=generator&theme=0"
-                        width="30%" height="352" frameBorder="0" allowfullscreen=""
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy"></iframe>
-
-                    <iframe class="embed-iframe-items2" style="border-radius:12px"
-                        src="https://open.spotify.com/embed/album/2VWgKzOzehWHP3jIwcwtYq?utm_source=generator"
-                        width="30%" height="352" frameBorder="0" allowfullscreen=""
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy"></iframe>
-                    <iframe class="embed-iframe-items3" style="border-radius:12px"
-                        src="https://open.spotify.com/embed/album/50xG9YujTzMGaLHfJTskBy?utm_source=generator"
-                        width="30%" height="352" frameBorder="0" allowfullscreen=""
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy"></iframe>
-                    <iframe class="embed-iframe-items4" style="border-radius:12px"
-                        src="https://open.spotify.com/embed/album/50xG9YujTzMGaLHfJTskBy?utm_source=generator"
-                        width="30%" height="352" frameBorder="0" allowfullscreen=""
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy"></iframe>
-                    <iframe class="embed-iframe-items5" style="border-radius:12px"
-                        src="https://open.spotify.com/embed/album/50xG9YujTzMGaLHfJTskBy?utm_source=generator"
-                        width="30%" height="352" frameBorder="0" allowfullscreen=""
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy"></iframe>
-                    <iframe class="embed-iframe-items5" style="border-radius:12px"
-                        src="https://open.spotify.com/embed/album/50xG9YujTzMGaLHfJTskBy?utm_source=generator"
-                        width="30%" height="352" frameBorder="0" allowfullscreen=""
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy"></iframe>
-
+            <div class="col-md-6">
+                <label for="validationCustom03" class="form-label">City</label>
+                <input type="text" class="form-control" id="validationCustom03" required>
+                <div class="invalid-feedback">
+                    Please provide a valid city.
                 </div>
             </div>
-            <div class="div_suscribe-info-pic">
-                <img class="pic_suscribe" src="../images/bg_oasis_knebworth_park.webp" alt="">
-                <div class="div_suscribe-info-button">
-                    <button type="button" class="btn btn-light">SUSCRIBE</button>
+            <div class="col-md-3">
+                <label for="validationCustom04" class="form-label">State</label>
+                <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>...</option>
+                </select>
+                <div class="invalid-feedback">
+                    Please select a valid state.
                 </div>
             </div>
-            <div>
+            <div class="col-md-3">
+                <label for="validationCustom05" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="validationCustom05" required>
+                <div class="invalid-feedback">
+                    Please provide a valid zip.
+                </div>
             </div>
-        </section>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                        Agree to terms and conditions
+                    </label>
+                    <div class="invalid-feedback">
+                        You must agree before submitting.
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+        </form>
     </main>
     <!--Comienza footer*/-->
-    <footer>
+    <footer class="footerSucribe">
         <div>
             <p class="pFooter"> Nicolas Maximiliano Caminos © 2023 </p>
         </div>
