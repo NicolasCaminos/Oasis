@@ -25,5 +25,6 @@ Estilo inicial: comenzar a darle estilo básico a la web aplicando:
  
  Se añade boostrap, maquetado con flex en algunos items 
  
+ Se añade favicon a la web
 
 Muchas Gracias.
