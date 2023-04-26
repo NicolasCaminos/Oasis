@@ -65,6 +65,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 :is(.albumStudio h2, .liveStudio h2, .singleAlbum h2, .compilationAlbum h2) {
     text-align: center;
+    margin-top: 10vh;
 }
 
 .albumStudio .col-sm-6 {
