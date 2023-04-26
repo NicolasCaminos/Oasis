@@ -19,37 +19,36 @@
 
 <body>
     <header id="items_Nav">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="menu">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" class=>
             <div class="container-fluid">
-                <img src="images/oasis_logo.png" alt="" width="90" height="60" class="d-inline-block align-text-top">
+                <img src="../images/oasis_logo.png" alt="" width="90" height="60" class="d-inline-block align-text-top">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                     aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" class="nav"
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" class="nav_ul"
                         style="--bs-scroll-height: 100px;">
-                        <li class="nav">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
-                        <li class="nav">
+                        <li class="nav-item">
                             <a class="nav-link" href="pages/historia.html">Historia</a>
                         </li>
-                        <li class="nav">
+                        <li class="nav-item">
                             <a class="nav-link" href="pages/contacto.html">Contacto</a>
-                        <li class="nav">
+                        <li class="nav-item">
                             <a class="nav-link" href="pages/discografia.html">Discografía</a>
                         </li>
-                        <li class="nav">
+                        <li class="nav-item">
                             <a class="nav-link" href="pages/galeria.html">Galería</a>
                         </li>
                     </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-dark" type="submit">Search</button>
+                    </form>
                 </div>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-dark" type="submit">Search</button>
-                </form>
-            </div>
             </div>
         </nav>
     </header>
@@ -124,14 +123,14 @@
                     <img src="https://oasisinet.com/wp-content/uploads/2022/05/Familiar-To-Millions-CD2-cover-500x500-2.jpg"
                         alt="" class="image-disc">
                     <div>
-                        <button type="button" class="btn btn-light">Tienda</button>
+                        <button type="button" class="btn btn-outline-dark">Galeria</button>
                     </div>
                 </div>
                 <div class="seccion-dos-item" class="image-disc">
                     <img src="https://img.tmstor.es/oasis/98683-28a14b5f3fbfca3c59a3852d22dade0c.png" alt=""
                         class="image-disc">
                     <div>
-                        <button type="button" class="btn btn-light">Discografía</button>
+                        <button type="button" class="btn btn-outline-dark">Discografía</button>
                     </div>
                 </div>
             </div>

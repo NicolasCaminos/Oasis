@@ -22,7 +22,7 @@ body {
 
 body::-webkit-scrollbar {
     width: 10px;
-    height: 36px;
+    height: 16px;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -32,6 +32,33 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-thumb:hover {
     background-color: rgba(169, 169, 169, 0.668);
+}
+
+.galeria img {
+    margin-top: 50px;
+    gap: 100px;
+    box-shadow: 0 8px 10px -4px rgba(0, 0, 0, .6);
+    border-radius: 15px;
+}
+
+.materialbox-caption {
+    bottom: 30px;
+    right: 0;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    background: #000;
+    box-shadow: 5px 5px #fff;
+    font-size: 20px;
+    color: #fff;
+    line-height: 28px;
+}
+
+.galeria .col {
+    display: inline-block;
+    gap: 100px;
+    margin-bottom: 20px;
 }
 
 /*PSEDO CLASES*/
@@ -204,6 +231,10 @@ footer li a {
     footer li a {
         text-decoration: none;
         font-size: 15px;
+    }
+
+    .materialbox-caption {
+        width: 70%;
     }
 }
 
@@ -477,5 +508,9 @@ footer li a {
 
     .footerSucribe {
         top: 40vh;
+    }
+
+    .materialbox-caption {
+        width: 70%;
     }
 }
