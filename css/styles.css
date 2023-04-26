@@ -71,8 +71,8 @@ body::-webkit-scrollbar-thumb:hover {
     text-align: center;
 }
 
-.liveStudio .col-sm-6 {
-    width: 50rem;
+.liveStudio {
+    width: 50rem !important;
     gap: 10px !important;
     margin-top: 10vh !important;
 }
