@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
 
-/*Variables reutilizables*/
+/*Variables reutilizables y selectores*/
 :root {
     --color-efect: linear-gradient(to right, #b47dcd, #e878a2, #eb85ab);
 }
@@ -61,14 +61,16 @@ body::-webkit-scrollbar-thumb:hover {
     margin-bottom: 20px;
 }
 
+
+
+:is(.albumStudio h2, .liveStudio h2, .singleAlbum h2, .compilationAlbum h2) {
+    text-align: center;
+}
+
 .albumStudio .col-sm-6 {
     width: 30rem !important;
     gap: 10px !important;
     margin-top: 10vh !important;
-}
-
-:is(.albumStudio h2, .liveStudio h2, .singleAlbum h2, .compilationAlbum h2) {
-    text-align: center;
 }
 
 .liveStudio {
