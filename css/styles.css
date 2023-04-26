@@ -61,15 +61,16 @@ body::-webkit-scrollbar-thumb:hover {
     margin-bottom: 20px;
 }
 
-.albumStudio .col-sm-6 {
-    width: 30rem !important;
-    gap: 10px !important;
-    margin-top: 10vh !important;
-}
 
 :is(.albumStudio h2, .liveStudio h2, .singleAlbum h2, .compilationAlbum h2) {
     text-align: center;
     margin-top: 10vh;
+}
+
+.albumStudio .col-sm-6 {
+    width: 30rem !important;
+    gap: 10px !important;
+    margin-top: 10vh !important;
 }
 
 .liveStudio .col-sm-6 {
