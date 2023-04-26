@@ -61,6 +61,31 @@ body::-webkit-scrollbar-thumb:hover {
     margin-bottom: 20px;
 }
 
+.col-sm-6 {
+    width: 30rem !important;
+    gap: 10px !important;
+    margin-top: 10vh !important;
+}
+
+
+.liveStudio {
+    display: flex;
+    width: 100%;
+    gap: 10px !important;
+}
+
+.singleAlbum .col-sm-6 {
+    width: 30rem !important;
+    gap: 10px !important;
+    margin-top: 10vh !important;
+}
+
+.compilationAlbum .col-sm-6 {
+    width: 30rem !important;
+    gap: 10px !important;
+    margin-top: 10vh !important;
+}
+
 /*PSEDO CLASES*/
 
 :is(h1, h2) {
