@@ -17,5 +17,13 @@ HTML (uso de etiquetas contenedoras, etiquetas multimedia y etiquetas de texto)
 Estilo inicial: comenzar a darle estilo básico a la web aplicando: 
 
  CSS (con modificadores de texto, colores, listas y box modeling)
+ 
+ V 0.3
+ Se agega a  el contenido total de la web: index, contacto, galeria, historia y discongrafía
+ 
+ Se realiza responsive en index, contacto y discongrafía.
+ 
+ Se añade boostrap, maquetado con flex en algunos items 
+ 
 
 Muchas Gracias.
