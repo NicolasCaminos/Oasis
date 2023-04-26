@@ -541,4 +541,54 @@ footer li a {
     .materialbox-caption {
         width: 70%;
     }
+
+    .first_para {
+        display: block;
+        white-space: nowrap;
+        /* los espacios en blanco no rompen la línea */
+        width: 100%;
+        /* el ancho será el número de caracteres que tiene nuestra línea */
+        animation: escribiendo 6s steps(30);
+        overflow: hidden;
+    }
+
+    .third_para {
+        display: block;
+        white-space: nowrap;
+        /* los espacios en blanco no rompen la línea */
+        width: 100%;
+        /* el ancho será el número de caracteres que tiene nuestra línea */
+        animation: escribiendo 8s steps(20);
+        overflow: hidden;
+    }
+
+    .four_para {
+        display: block;
+        white-space: nowrap;
+        /* los espacios en blanco no rompen la línea */
+        width: 100%;
+        /* el ancho será el número de caracteres que tiene nuestra línea */
+        animation: escribiendo 10s steps(20);
+        overflow: hidden;
+    }
+
+    .cursor {
+        animation: 0.5s parpadeo-cursor infinite;
+    }
+
+    .cursor1 {
+        animation: 0.5s parpadeo-cursor infinite;
+    }
+
+    @keyframes escribiendo {
+        from {
+            width: 0;
+        }
+    }
+
+    @keyframes parpadeo-cursor {
+        50% {
+            opacity: 0;
+        }
+    }
 }
