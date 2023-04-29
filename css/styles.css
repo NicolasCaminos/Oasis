@@ -94,9 +94,9 @@ body::-webkit-scrollbar-thumb:hover {
 
 /*PSEDO CLASES*/
 
-:is(h1, h2) {
+:is(h1,h2) {
     display: block;
-    justify-content: center;
+    text-align: center;
 }
 
 
@@ -114,6 +114,7 @@ body::-webkit-scrollbar-thumb:hover {
 .cabecera-info-textos {
     text-align: center;
     gap: 50px;
+    
 }
 
 .carousel-inner {
@@ -191,8 +192,7 @@ div .article_video {
 footer {
     display: flex;
     align-items: center;
-    background-color: black;
-    color: beige;
+
 }
 
 footer ul {

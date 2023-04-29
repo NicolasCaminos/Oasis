@@ -12,24 +12,24 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <!-- CSS -->
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/style.css">
+        <script src="../js/app.js" type="text/javascript" defer></script>
     <title>Oasis</title>
     <link rel="icon" href="https://oasisinet.com/wp-content/uploads/2022/05/cropped-oasis-fav-32x32.png" sizes="32x32">
 </head>
 <!-- Comienza el body -->
 
 <body>
-    <header id="items_Nav">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" class=>
-            <div class="container-fluid">
+    <header class="base-header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar_oasis">
+            <div class="container">
                 <img src="../images/oasis_logo.png" alt="" width="90" height="60" class="d-inline-block align-text-top">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                     aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" class="nav_ul"
-                        style="--bs-scroll-height: 100px;">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" class="nav_ul" style="--bs-scroll-height: 100px;">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                         </li>
@@ -45,6 +45,13 @@
                             <a class="nav-link" href="galery.html">Galery</a>
                         </li>
                     </ul>
+                        <p id="items" class="bi bi-brightness-alt-high"></p>
+                        <div class="check">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="slider">
+                            </div>
+                        </div>
+                        <p id="items" class="bi bi-moon-fill"></p>
                     <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-dark" type="submit">Search</button>
@@ -53,7 +60,8 @@
             </div>
         </nav>
     </header>
-    <main class="container-fluid">
+    <main class="base-content">
+        <div class="container">
         <h1 class="Album-text">
             Discography
         </h1>
@@ -229,8 +237,7 @@
                     <div class="album_13">
                         <h3>Cigarettes & Alcohol</h3>
                         <div class="card" style="width: 18rem;">
-                            <img src="https://i.scdn.co/image/ab67616d0000b273cd0a05c52d93b118d5780225"
-                                class="card-img-top" alt="...">
+                            <img src="https://i.scdn.co/image/ab67616d0000b273cd0a05c52d93b118d5780225" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <a href="https://open.spotify.com/album/4ehQhtAJM5CeCQrkh2tr9b?si=YD3p4rtCQc2fnd016o1XXA"
                                     class="btn btn-primary">Enjoy</a>
@@ -242,8 +249,7 @@
                     <div class="album_14">
                         <h3>Whatever</h3>
                         <div class="card" style="width: 18rem;">
-                            <img src="https://i.scdn.co/image/ab67616d0000b273ec884658ecdc556c9f7104e8"
-                                class="card-img-top" alt="...">
+                            <img src="https://i.scdn.co/image/ab67616d0000b273ec884658ecdc556c9f7104e8" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <a href="https://open.spotify.com/track/6VZB1TeJjeaCVC9yMmTIhN?si=c72277a168864734"
                                     class="btn btn-primary">Enjoy</a>
@@ -255,8 +261,7 @@
                     <div class="album_15">
                         <h3>Some Might Say</h3>
                         <div class="card" style="width: 18rem;">
-                            <img src="https://i.scdn.co/image/ab67616d0000b273d020e4d6b57984a44767bf42"
-                                class="card-img-top" alt="...">
+                            <img src="https://i.scdn.co/image/ab67616d0000b273d020e4d6b57984a44767bf42" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <a href="https://open.spotify.com/track/6FugFcDteFgQhxvhhoR2vP?si=8e00e8fc3c034260"
                                     class="btn btn-primary">Enjoy</a>
@@ -268,11 +273,9 @@
                     <div class="album_16">
                         <h3>Wonderwall</h3>
                         <div class="card" style="width: 18rem;">
-                            <img src="https://i.scdn.co/image/ab67616d0000b273a4e5dcbb5ddcf130cbedd101"
-                                class="card-img-top" alt="...">
+                            <img src="https://i.scdn.co/image/ab67616d0000b273a4e5dcbb5ddcf130cbedd101" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <a href="https://open.spotify.com/track/7dPd3dx4ipBe10xKuhj9eY"
-                                    class="btn btn-primary">Enjoy</a>
+                                <a href="https://open.spotify.com/track/7dPd3dx4ipBe10xKuhj9eY" class="btn btn-primary">Enjoy</a>
                             </div>
                         </div>
                     </div>
@@ -281,8 +284,7 @@
                     <div class="album_17">
                         <h3>Roll With It</h3>
                         <div class="card" style="width: 18rem;">
-                            <img src="https://i.scdn.co/image/ab67616d0000b2738616da4ed620e2202ce40602"
-                                class="card-img-top" alt="...">
+                            <img src="https://i.scdn.co/image/ab67616d0000b2738616da4ed620e2202ce40602" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <a href="https://open.spotify.com/album/3v1Lnow94SBGkwGDmpA1L7?si=wAQlMXP3Szy679nvbgjjog"
                                     class="btn btn-primary">Enjoy</a>
@@ -294,23 +296,20 @@
                     <div class="album_18">
                         <h3>Don’t Look Back In Anger</h3>
                         <div class="card" style="width: 18rem;">
-                            <img src="https://i.scdn.co/image/ab67616d0000b273ddb26eb02ab9bb23474b7a93"
-                                class="card-img-top" alt="...">
+                            <img src="https://i.scdn.co/image/ab67616d0000b273ddb26eb02ab9bb23474b7a93" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <a href="https://open.spotify.com/album/6D736Tpy8AoD1YyYUczBI8"
-                                    class="btn btn-primary">Enjoy</a>
+                                <a href="https://open.spotify.com/album/6D736Tpy8AoD1YyYUczBI8" class="btn btn-primary">Enjoy</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="album_19">
+                        <h3>D’you know what i mean? </h3>
                         <div class="card" style="width: 18rem;">
-                            <img src="https://i.scdn.co/image/ab67616d0000b273b84175968a48570d6235e48a"
-                                class="card-img-top" alt="...">
+                            <img src="https://i.scdn.co/image/ab67616d0000b273b84175968a48570d6235e48a" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <a href="https://open.spotify.com/album/0GiKjeftaw3HccbDaA1Ryk"
-                                    class="btn btn-primary">Enjoy</a>
+                                <a href="https://open.spotify.com/album/0GiKjeftaw3HccbDaA1Ryk" class="btn btn-primary">Enjoy</a>
                             </div>
                         </div>
                     </div>
@@ -319,8 +318,7 @@
                     <div class="album_20">
                         <h3>Stand By Me</h3>
                         <div class="card" style="width: 18rem;">
-                            <img src="https://i.scdn.co/image/ab67616d0000b273b15203dc7430f08f187d3e26"
-                                class="card-img-top" alt="...">
+                            <img src="https://i.scdn.co/image/ab67616d0000b273b15203dc7430f08f187d3e26" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <a href="https://open.spotify.com/album/4n28IbevWga3bYj5XgZEym"
                                     class="btn btn-primary">Enjoy</a>
@@ -598,9 +596,11 @@
                 </div>
             </div>
         </div>
+        </div>
     </main>
+        
     <!--Comienza footer*/-->
-    <footer class="footerSucribe">
+    <footer class="base-footer">
         <div>
             <p class="pFooter"> Nicolas Maximiliano Caminos © 2023 </p>
         </div>

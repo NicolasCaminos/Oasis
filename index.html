@@ -12,7 +12,7 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <!-- CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Oasis</title>
     <link rel="icon" href="https://oasisinet.com/wp-content/uploads/2022/05/cropped-oasis-fav-32x32.png" sizes="32x32">
@@ -20,9 +20,9 @@
 <!-- Comienza el body -->
 
 <body>
-    <header id="items_Nav">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" class=>
-            <div class="container-fluid">
+    <header class="base-header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar_oasis">
+            <div class="container">
                 <img src="images/oasis_logo.png" alt="" width="90" height="60" class="d-inline-block align-text-top">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                     aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,150 +47,161 @@
                         </li>
                     </ul>
                     <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-dark" type="submit">Search</button>
+                        <p id="items" class="bi bi-brightness-alt-high"></p>
+                        <div class="check">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="slider">
+                            </div>
+                        </div>
+                        <p id="items" class="bi bi-moon-fill"></p>
                     </form>
                 </div>
             </div>
         </nav>
     </header>
-    <main class="container">
-        <div class="cabecera-info-textos">
-            <h1>THIS IS HYSTORY</h1>
+    <main class="base-content">
+        <div class="container">
+            <div class="cabecera-info-textos">
+                <h1>THIS IS HYSTORY</h1>
 
-            <h2>OASIS' KNEBWORTH...THIS IS IT!!!!!</h2>
-            <div class="cabecera-info-texto-2">
-                <h3>Buy NOW!!</h3>
-            </div>
-        </div>
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="3000">
-                    <img src="https://img.tmstor.es/oasis/84829-207757944cdc251f7ee7951804e2412d.png"
-                        class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                    <img src="https://img.tmstor.es/oasis/84832-c0f040fa0fac87dd0fb411ca638a95e8.png"
-                        class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://img.tmstor.es/oasis/86902-5636f593bb5050f3146ebaa2df903df5.jpg"
-                        class="d-block w-100" alt="...">
+                <h2>OASIS' KNEBWORTH...THIS IS IT!!!!!</h2>
+                <div class="cabecera-info-texto-2">
+                    <h3>Buy NOW!!</h3>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-        <!-- Segunda sección -->
-        <section class="seccion-uno">
-            <div class="section-uno-item">
-                <h3>WATCH NOW ON YouTube!</h3>
-                <iframe class="section-uno-video" width="80%" height="715"
-                    src="https://www.youtube.com/embed/gMM4lZxyevg" title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-                <h3>Champagne Supernova (Live at Knebworth, 10 August '96) · Oasis</h3>
-                <p>℗ Big Brother Recordings Ltd</p>
-                <p class="article_video">
-                    (What's The Story) Morning Glory?, showing two figures walking in opposite directions in a city
-                    street, very close to
-                    each other But more important than tickets or records sold, their biggest songs – the likes of
-                    ‘Wonderwall’, ‘Don’t Look
-                    Back In Anger’ and ‘Champagne Supernova’ – are songs that swathes of planet earth knows every last
-                    word of. Black and
-                    white photo of the band all sitting at a table of beer and glasses, laughing, in the corner of a
-                    pub.</p>
-                <div class="article_videoHystory">
-                    <a href="pages/history.html">Follow this link to get more information.</a>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
                 </div>
-            </div>
-            <div class="seccion-dos">
-                <div class="seccion-dos-item">
-                    <img src="https://oasisinet.com/wp-content/uploads/2022/05/Familiar-To-Millions-CD2-cover-500x500-2.jpg"
-                        alt="" class="image-disc">
-                    <div>
-                        <a class="btn btn-outline-dark" href="pages/galery.html">Galery</a>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="https://img.tmstor.es/oasis/84829-207757944cdc251f7ee7951804e2412d.png"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://img.tmstor.es/oasis/84832-c0f040fa0fac87dd0fb411ca638a95e8.png"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://img.tmstor.es/oasis/86902-5636f593bb5050f3146ebaa2df903df5.jpg"
+                            class="d-block w-100" alt="...">
                     </div>
                 </div>
-                <div class="seccion-dos-item" class="image-disc">
-                    <img src="https://img.tmstor.es/oasis/98683-28a14b5f3fbfca3c59a3852d22dade0c.png" alt=""
-                        class="image-disc">
-                    <div>
-                        <a class="btn btn-outline-dark" href="pages/discography.html">Discography</a>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- Segunda sección -->
+            <section class="seccion-uno">
+                <div class="section-uno-item">
+                    <h3>WATCH NOW ON YouTube!</h3>
+                    <iframe class="section-uno-video" width="80%" height="715"
+                        src="https://www.youtube.com/embed/gMM4lZxyevg" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <h3>Champagne Supernova (Live at Knebworth, 10 August '96) · Oasis</h3>
+                    <p>℗ Big Brother Recordings Ltd</p>
+                    <p class="article_video">
+                        (What's The Story) Morning Glory?, showing two figures walking in opposite directions in a city
+                        street, very close to
+                        each other But more important than tickets or records sold, their biggest songs – the likes of
+                        ‘Wonderwall’, ‘Don’t Look
+                        Back In Anger’ and ‘Champagne Supernova’ – are songs that swathes of planet earth knows every
+                        last
+                        word of. Black and
+                        white photo of the band all sitting at a table of beer and glasses, laughing, in the corner of a
+                        pub.</p>
+                    <div class="article_videoHystory">
+                        <a href="pages/history.html">Follow this link to get more information.</a>
                     </div>
                 </div>
-            </div>
-            <div class="texto">
-                <h3>Listen to Oasis</h3>
-            </div>
-            <div class="embed-iframe">
-                <div class="embed-iframe-items">
-                    <iframe class="embed-iframe-items1" style="border-radius:12px"
-                        src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO1vHAZO?utm_source=generator&theme=0"
-                        width="30%" height="352" frameBorder="0" allowfullscreen=""
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy"></iframe>
-
-                    <iframe class="embed-iframe-items2" style="border-radius:12px"
-                        src="https://open.spotify.com/embed/album/2VWgKzOzehWHP3jIwcwtYq?utm_source=generator"
-                        width="30%" height="352" frameBorder="0" allowfullscreen=""
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy"></iframe>
-                    <iframe class="embed-iframe-items3" style="border-radius:12px"
-                        src="https://open.spotify.com/embed/album/50xG9YujTzMGaLHfJTskBy?utm_source=generator"
-                        width="30%" height="352" frameBorder="0" allowfullscreen=""
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy"></iframe>
-                    <iframe class="embed-iframe-items4" style="border-radius:12px"
-                        src="https://open.spotify.com/embed/album/50xG9YujTzMGaLHfJTskBy?utm_source=generator"
-                        width="30%" height="352" frameBorder="0" allowfullscreen=""
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy"></iframe>
-                    <iframe class="embed-iframe-items5" style="border-radius:12px"
-                        src="https://open.spotify.com/embed/album/50xG9YujTzMGaLHfJTskBy?utm_source=generator"
-                        width="30%" height="352" frameBorder="0" allowfullscreen=""
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy"></iframe>
-                    <iframe class="embed-iframe-items5" style="border-radius:12px"
-                        src="https://open.spotify.com/embed/album/50xG9YujTzMGaLHfJTskBy?utm_source=generator"
-                        width="30%" height="352" frameBorder="0" allowfullscreen=""
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy"></iframe>
-
+                <div class="seccion-dos">
+                    <div class="seccion-dos-item">
+                        <img src="https://oasisinet.com/wp-content/uploads/2022/05/Familiar-To-Millions-CD2-cover-500x500-2.jpg"
+                            alt="" class="image-disc">
+                        <div>
+                            <a class="btn btn-outline-dark" href="pages/galery.html">Galery</a>
+                        </div>
+                    </div>
+                    <div class="seccion-dos-item" class="image-disc">
+                        <img src="https://img.tmstor.es/oasis/98683-28a14b5f3fbfca3c59a3852d22dade0c.png" alt=""
+                            class="image-disc">
+                        <div>
+                            <a class="btn btn-outline-dark" href="pages/discography.html">Discography</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="div_suscribe-info-pic">
-                <img class="pic_suscribe" src="./images/bg_oasis_knebworth_park.webp" alt="">
-                <div class="div_suscribe-info-button">
-                    <button type="button" class="btn btn-outline-dark">SUSCRIBE</button>
+                <div class="texto">
+                    <h3>Listen to Oasis</h3>
                 </div>
-            </div>
-            <div>
-            </div>
-        </section>
+                <div class="embed-iframe">
+                    <div class="embed-iframe-items">
+                        <iframe class="embed-iframe-items1" style="border-radius:12px"
+                            src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO1vHAZO?utm_source=generator&theme=0"
+                            width="30%" height="352" frameBorder="0" allowfullscreen=""
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"></iframe>
+
+                        <iframe class="embed-iframe-items2" style="border-radius:12px"
+                            src="https://open.spotify.com/embed/album/2VWgKzOzehWHP3jIwcwtYq?utm_source=generator"
+                            width="30%" height="352" frameBorder="0" allowfullscreen=""
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"></iframe>
+                        <iframe class="embed-iframe-items3" style="border-radius:12px"
+                            src="https://open.spotify.com/embed/album/50xG9YujTzMGaLHfJTskBy?utm_source=generator"
+                            width="30%" height="352" frameBorder="0" allowfullscreen=""
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"></iframe>
+                        <iframe class="embed-iframe-items4" style="border-radius:12px"
+                            src="https://open.spotify.com/embed/album/50xG9YujTzMGaLHfJTskBy?utm_source=generator"
+                            width="30%" height="352" frameBorder="0" allowfullscreen=""
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"></iframe>
+                        <iframe class="embed-iframe-items5" style="border-radius:12px"
+                            src="https://open.spotify.com/embed/album/50xG9YujTzMGaLHfJTskBy?utm_source=generator"
+                            width="30%" height="352" frameBorder="0" allowfullscreen=""
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"></iframe>
+                        <iframe class="embed-iframe-items5" style="border-radius:12px"
+                            src="https://open.spotify.com/embed/album/50xG9YujTzMGaLHfJTskBy?utm_source=generator"
+                            width="30%" height="352" frameBorder="0" allowfullscreen=""
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"></iframe>
+
+                    </div>
+                </div>
+                <div class="div_suscribe-info-pic">
+                    <img class="pic_suscribe" src="./images/bg_oasis_knebworth_park.webp" alt="">
+                    <div class="div_suscribe-info-button">
+                        <button type="button" class="btn btn-outline-dark">SUSCRIBE</button>
+                    </div>
+                </div>
+                <div>
+                </div>
+            </section>
+        </div>
     </main>
+    <script src="js/app.js" type="text/javascript" defer></script>
     <!--Comienza footer*/-->
-    <footer>
+    <footer class="base-footer">
         <div>
             <p class="pFooter"> Nicolas Maximiliano Caminos © 2023 </p>
         </div>
+
         <ul class="socialmedia">
+
             <li>
                 <a title="github" class="bi bi-github" href="https://github.com/NicolasCaminos/Oasis"></a>
             </li>

@@ -13,16 +13,17 @@
         crossorigin="anonymous"></script>
     <link rel="icon" href="https://oasisinet.com/wp-content/uploads/2022/05/cropped-oasis-fav-32x32.png" sizes="32x32">
     <!-- CSS -->
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/app.js" type="text/javascript" defer></script>
     <title>Oasis</title>
     <link rel="icon" href="https://oasisinet.com/wp-content/uploads/2022/05/cropped-oasis-fav-32x32.png" sizes="32x32">
 </head>
 <!-- Comienza el body -->
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" class=>
-            <div class="container-fluid">
+    <header class="base-header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar_oasis">
+            <div class="container">
                 <img src="../images/oasis_logo.png" alt="" width="90" height="60" class="d-inline-block align-text-top">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                     aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,16 +47,25 @@
                             <a class="nav-link" href="galery.html">Galery</a>
                         </li>
                     </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-dark" type="submit">Search</button>
-                    </form>
+                        <p id="items" class="bi bi-brightness-alt-high"></p>
+                        <div class="check">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="slider">
+                            </div>
+                        </div>
+                        <p id="items" class="bi bi-moon-fill"></p>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-dark" type="submit">Search</button>
+                        </form>
+                    </div>
                 </div>
-            </div>
         </nav>
+    </header>
+    <main class="base-content">
         <div class="video-item">
-            <video class="video-item-element" autoplay muted playsinline>
-                <source src="../video/The Story – Oasis.mp4" type="video/mp4">
+            <video class="video-item-element mtz-vlc-ifkgd" autoplay="true" muted="" playsinline="">
+                <source class="video-presentacion" src="../video/The Story – Oasis.mp4" type="video/mp4">
             </video>
         </div>
         <div class="img-video">
@@ -64,83 +74,85 @@
         <div class="text-header">
             <h1>The Story</h1>
         </div>
-    </header>
-    <main class="container">
-        <!-- Segunda sección -->
-        <section class="seccion-uno-article-intro">
-            <div class="article_video-hystory">
-                <h3>
-                    When <a href="https://oasis.lnk.to/SMSRmstdWE">‘Some Might Say’</a> became Oasis’ first Number One
-                    single in April of 1995, it marked the midpoint of a two year
-                    period in which they rose from barely known Manchester
-                    could-bes playing in the tiny back rooms of pubs to the status
-                    of the most culturally significant rock ‘n’ roll band of the last
-                    three decades.</h3>
-            </div>
-            <img class="one-pic"
-                src="https://oasisinet.com/wp-content/uploads/2022/04/Oasis-Packshot-Definitely-Maybel-499x500-1.jpg"
-                alt="">
-            <div>
-                <p class="article_video-hystory1">Just 12 months prior, they had released their debut single
-                    <a href="https://www.youtube.com/watch?v=BJKpUH2kJQg">‘Supersonic’.</a>
-                </p>
-            </div>
-            <img class="two-pic"
-                src="https://oasisinet.com/wp-content/uploads/2022/07/earlyDays_22-october-1991-Uptown-Photo.jpg"
-                alt="">
-            <img class="second-pic" src="https://oasisinet.com/wp-content/uploads/2022/08/story-Knebworth-10-Aug-96.jpg"
-                alt="">
-            <div class="article_video-hystory2">
-                <img class="three-pic"
-                    src="https://oasisinet.com/wp-content/uploads/2022/05/whats-the-story-morning-glory-disc-1-4de93e4bc1c6f.jpg"
+        <div class="container">
+            <!-- Segunda sección -->
+            <section class="seccion-uno-article-intro">
+                <div class="article_video-hystory">
+                    <h3>
+                        When <a href="https://oasis.lnk.to/SMSRmstdWE">‘Some Might Say’</a> became Oasis’ first Number
+                        One
+                        single in April of 1995, it marked the midpoint of a two year
+                        period in which they rose from barely known Manchester
+                        could-bes playing in the tiny back rooms of pubs to the status
+                        of the most culturally significant rock ‘n’ roll band of the last
+                        three decades.</h3>
+                </div>
+                <img class="one-pic"
+                    src="https://oasisinet.com/wp-content/uploads/2022/04/Oasis-Packshot-Definitely-Maybel-499x500-1.jpg"
                     alt="">
-                <div class="article_video-hystory2a">
-                    <p>By the same time in 1996, they were performing to a quarter
-                        of a million fans over two nights at UK’s <a
-                            href="https://oasismusic.lnk.to/knebworth1996WE">Knebworth Park –</a>
-                        while <a href="https://oasismusic.lnk.to/knebworth1996WE">‘(What’s The Story) Morning
-                            Glory?’–</a>was well on the
-                        way to becoming…</p>
+                <div>
+                    <p class="article_video-hystory1">Just 12 months prior, they had released their debut single
+                        <a href="https://www.youtube.com/watch?v=BJKpUH2kJQg">‘Supersonic’.</a>
+                    </p>
                 </div>
-                <div class="article_video-hystory3">
-                    <img class="four-pic" src="https://oasisinet.com/wp-content/uploads/2022/05/suscribe-bg-2.jpeg"
+                <img class="two-pic"
+                    src="https://oasisinet.com/wp-content/uploads/2022/07/earlyDays_22-october-1991-Uptown-Photo.jpg"
+                    alt="">
+                <img class="second-pic"
+                    src="https://oasisinet.com/wp-content/uploads/2022/08/story-Knebworth-10-Aug-96.jpg" alt="">
+                <div class="article_video-hystory2">
+                    <img class="three-pic"
+                        src="https://oasisinet.com/wp-content/uploads/2022/05/whats-the-story-morning-glory-disc-1-4de93e4bc1c6f.jpg"
                         alt="">
-                    <h3 class="article_video-hystory31">…the fifth biggest selling album of
-                        all time in Britain.</h3>
-                    <div class="article_video-hystory3a">
-                        <p>But more important than tickets or records sold, their biggest songs – the likes
-                            of – <a href="https://youtu.be/vU05Eksc_iM">‘Wonderwall’ </a>, <a
-                                href="https://youtu.be/vU05Eksc_iM">‘Don’t Look Back
-                                In Anger’ </a> and<a href="https://youtu.be/VGfDg7wju6M"> ‘Champagne Supernova’ –</a>
-                            are songs that swathes
-                            of planet earth knows every last word of.
-                        </p>
+                    <div class="article_video-hystory2a">
+                        <p>By the same time in 1996, they were performing to a quarter
+                            of a million fans over two nights at UK’s <a
+                                href="https://oasismusic.lnk.to/knebworth1996WE">Knebworth Park –</a>
+                            while <a href="https://oasismusic.lnk.to/knebworth1996WE">‘(What’s The Story) Morning
+                                Glory?’–</a>was well on the
+                            way to becoming…</p>
+                    </div>
+                    <div class="article_video-hystory3">
+                        <img class="four-pic" src="https://oasisinet.com/wp-content/uploads/2022/05/suscribe-bg-2.jpeg"
+                            alt="">
+                        <h3 class="article_video-hystory31">…the fifth biggest selling album of
+                            all time in Britain.</h3>
+                        <div class="article_video-hystory3a">
+                            <p>But more important than tickets or records sold, their biggest songs – the likes
+                                of – <a href="https://youtu.be/vU05Eksc_iM">‘Wonderwall’ </a>, <a
+                                    href="https://youtu.be/vU05Eksc_iM">‘Don’t Look Back
+                                    In Anger’ </a> and<a href="https://youtu.be/VGfDg7wju6M"> ‘Champagne Supernova’
+                                    –</a>
+                                are songs that swathes
+                                of planet earth knows every last word of.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="article_video-hystory4">
+                        <img class="five-pic"
+                            src="https://oasisinet.com/wp-content/uploads/2022/08/story-Oasis-by-Jill-Furmanovski-2nd-May-1997-credit-icon-Rockarchive.jpg"
+                            alt="">
+                        <div class="article_video-hystory4a">
+                            <p class="first_para">
+                                Songs that seemed to take on a life of their own the instant that they
+                                were released,<span class="cursor"></span></p>
+                            <p class="third_para">and
+                                whose power has not diminished more than a quarter
+                                of a century later.<span class="cursor"></span></p>
+                            <p class="four_para">Songs that will
+                                live
+                                on long, long after everyone involved in their creation has gone. <span
+                                    class="cursor1"></span></p>
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="article_video-hystory4">
-                    <img class="five-pic"
-                        src="https://oasisinet.com/wp-content/uploads/2022/08/story-Oasis-by-Jill-Furmanovski-2nd-May-1997-credit-icon-Rockarchive.jpg"
-                        alt="">
-                    <div class="article_video-hystory4a">
-                        <p class="first_para">
-                            Songs that seemed to take on a life of their own the instant that they
-                            were released,<span class="cursor"></span></p>
-                        <p class="third_para">and
-                            whose power has not diminished more than a quarter
-                            of a century later.<span class="cursor"></span></p>
-                        <p class="four_para">Songs that will
-                            live
-                            on long, long after everyone involved in their creation has gone. <span
-                                class="cursor1"></span></p>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            </div>
+        </div>
         </section>
+        </div>
     </main>
     <!--Comienza footer*/-->
-    <footer class="footerhystory">
+    <footer class="base-footer" id="footerhystory">
         <div>
             <p class=" pFooter"> Nicolas Maximiliano Caminos © 2023 </p>
         </div>
