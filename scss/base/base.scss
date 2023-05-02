@@ -1,7 +1,9 @@
 @import '../variables/variables.scss';
 
-:root html {
+:root {
     color-scheme: light;
+}
+html {
     overflow-y: auto;
     overflow-x: hidden;
 }
