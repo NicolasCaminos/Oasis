@@ -20,7 +20,7 @@ $footer-text-color: var(--#{prefix}-header-border-color, $color-slate-300);
         box-shadow: 0 0 1em -0.125em rgb(10 10 10/10%),
             0 0 1px rgb(10 10 10/2%);
         border-bottom: 1px solid $header-border-color;
-        background-color: $header-bg-color;
+        background-color: $header-bg-color 
 
     }
 
