@@ -1,4 +1,4 @@
-const preferedColorScheme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+const preferedColorScheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 const slider = document.getElementById('slider');
 
 const setTheme = (theme) => {
@@ -7,7 +7,7 @@ const setTheme = (theme) => {
 }
 
 slider.addEventListener('click', () => {
-    let switchToTheme = localStorage.getItem('theme') === 'light' ? 'dark' : 'light';
+    let switchToTheme = localStorage.getItem('theme') === 'dark' ? 'light' : 'dark';
     setTheme(switchToTheme);
 });
 
@@ -15,14 +15,19 @@ checkbox = document.getElementById('slider')
 checkbox.checked = eval(window.localStorage.getItem(checkbox.id))
 
 checkbox.addEventListener('change', function () {
-    if (midamaxima == `data-theme=${'dark'}`) {
-        window.localStorage.setItem(checkbox.id, checkbox.checked)
-    }
+    window.localStorage.setItem(checkbox.id, checkbox.checked)
 })
 
 
 setTheme(localStorage.getItem('theme') || preferedColorScheme);
 
+
+let midamaxima = document.getAttribute('data-theme'); // Obtiene el valor del atributo y "+" lo convierte a número
+
+// Logica u operación ...
+if (midamaxima == `data-theme=${'dark'}`) {
+    checkbox.checked = true;
+}
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (() => {
     'use strict'
