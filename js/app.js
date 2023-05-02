@@ -1,4 +1,4 @@
-const preferedColorScheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+
 const slider = document.getElementById('slider');
 
 const setTheme = (theme) => {
@@ -21,24 +21,23 @@ checkbox.addEventListener('change', function () {
 })
 
 
-setTheme(localStorage.getItem('theme') || preferedColorScheme);
 
-// Example starter JavaScript for disabling form submissions if there are invalid fields
-(() => {
-    'use strict'
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (() => {
+        'use strict'
 
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    const forms = document.querySelectorAll('.needs-validation')
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        const forms = document.querySelectorAll('.needs-validation')
 
-    // Loop over them and prevent submission
-    Array.from(forms).forEach(form => {
-        form.addEventListener('submit', event => {
-            if (!form.checkValidity()) {
-                event.preventDefault()
-                event.stopPropagation()
-            }
+        // Loop over them and prevent submission
+        Array.from(forms).forEach(form => {
+            form.addEventListener('submit', event => {
+                if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                }
 
-            form.classList.add('was-validated')
-        }, false)
-    })
-})()
+                form.classList.add('was-validated')
+            }, false)
+        })
+    })()
