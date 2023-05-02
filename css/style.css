@@ -78,27 +78,27 @@ body #footerhystory {
   top: 400vh;
 }
 
-:root[data-theme=ligth] :root[data-theme=dark] {
+[data-theme=ligth] [data-theme=dark] {
   color-scheme: dark;
   --oasis-body-bg-color: #0f172a;
   --oasis-body-text-color: #FFFFFF;
   --oasis-heading-text-color: #FFFFFF;
 }
-:root[data-theme=ligth] :root[data-theme=dark] #navbar_oasis {
+[data-theme=ligth] [data-theme=dark] #navbar_oasis {
   background-color: #0f172a !important;
   color: #FFFFFF !important;
 }
-:root[data-theme=ligth] :root[data-theme=dark] #navbar_oasis .navbar-toggler {
+[data-theme=ligth] [data-theme=dark] #navbar_oasis .navbar-toggler {
   background-color: #FFFFFF !important;
 }
-:root[data-theme=ligth] :root[data-theme=dark] #navbar_oasis li a {
+[data-theme=ligth] [data-theme=dark] #navbar_oasis li a {
   color: #FFFFFF !important;
 }
-:root[data-theme=ligth] :root[data-theme=dark] .embed-iframe-items::-webkit-scrollbar-thumb {
+[data-theme=ligth] [data-theme=dark] .embed-iframe-items::-webkit-scrollbar-thumb {
   background-color: #FFFFFF;
   border-radius: 10px;
 }
-:root[data-theme=ligth] :root[data-theme=dark] a {
+[data-theme=ligth] [data-theme=dark] a {
   color: #FFFFFF !important;
 }
 

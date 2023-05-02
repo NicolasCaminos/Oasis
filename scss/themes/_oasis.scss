@@ -1,7 +1,7 @@
 $header-bg-color: var(--#{prefix}-header-bg-color, $color-slate-100);
-:root[data-theme='ligth']
+[data-theme='ligth']
 
-:root[data-theme='dark'] {
+[data-theme='dark'] {
     color-scheme: dark;
     --#{$prefix}-body-bg-color: #0f172a;
     --#{$prefix}-body-text-color: #FFFFFF;
