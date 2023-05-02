@@ -627,6 +627,20 @@ div .article_video {
     top: 250vh;
   }
   /*DISCOGRAPHY*/
+  .albumStudio {
+    display: inline-block !important;
+    text-align: center !important;
+  }
+  .albumStudio .row {
+    display: flex !important;
+  }
+  .liveStudio {
+    display: inline-block !important;
+    text-align: center !important;
+  }
+  .liveStudio .row {
+    display: flex !important;
+  }
   .albumStudio .col-sm-6 {
     width: 30rem !important;
     gap: 10px !important;
