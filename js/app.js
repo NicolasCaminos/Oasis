@@ -16,18 +16,14 @@ checkbox.checked = eval(window.localStorage.getItem(checkbox.id))
 
 checkbox.addEventListener('change', function () {
     window.localStorage.setItem(checkbox.id, checkbox.checked)
+    if (slider === `data-theme=${'dark'}`) {
+        checkbox.checked = true;
+    }
 })
 
 
 setTheme(localStorage.getItem('theme') || preferedColorScheme);
 
-
-let midamaxima = document.getAttribute('data-theme'); // Obtiene el valor del atributo y "+" lo convierte a número
-
-// Logica u operación ...
-if (midamaxima == `data-theme=${'dark'}`) {
-    checkbox.checked = true;
-}
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (() => {
     'use strict'
