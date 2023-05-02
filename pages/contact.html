@@ -19,7 +19,7 @@
 </head>
 <!-- Comienza el body -->
 
-<body>
+<body class="body-contact">
     <header class="base-header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar_oasis">
             <div class="container">
@@ -46,16 +46,19 @@
                             <a class="nav-link" href="galery.html">Galery</a>
                         </li>
                     </ul>
+                    <p id="items" class="bi bi-brightness-alt-high"></p>
                     <div class="check">
                         <div class="form-check form-switch">
                             <input class="form-check-input" type="checkbox" role="switch" id="slider">
                         </div>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-dark" type="submit">Search</button>
-                        </form>
                     </div>
+                    <p id="items" class="bi bi-moon-fill"></p>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-dark" type="submit">Search</button>
+                    </form>
                 </div>
+            </div>
         </nav>
     </header>
     <main class="base-content">
@@ -63,14 +66,14 @@
                     <form class="row g-3 needs-validation" novalidate>
                         <div class="col-md-4">
                             <label for="validationCustom01" class="form-label">First name</label>
-                            <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="Mark" required>
                             <div class="valid-feedback">
                                 Looks good!
                             </div>
                         </div>
                         <div class="col-md-4">
                             <label for="validationCustom02" class="form-label">Last name</label>
-                            <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+                            <input type="text" class="form-control" id="validationCustom02" placeholder="Otto" required>
                             <div class="valid-feedback">
                                 Looks good!
                             </div>
@@ -80,15 +83,15 @@
                             <div class="input-group has-validation">
                                 <span class="input-group-text" id="inputGroupPrepend">@</span>
                                 <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend"
-                                    required>
+                                   placeholder="mail@service.com" required>
                                 <div class="invalid-feedback">
-                                    Please choose a username.
+                                    Please provide a valid mail.
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <label for="validationCustom03" class="form-label">City</label>
-                            <input type="text" class="form-control" id="validationCustom03" required>
+                            <input type="text" class="form-control" id="validationCustom03"  required>
                             <div class="invalid-feedback">
                                 Please provide a valid city.
                             </div>
@@ -129,7 +132,7 @@
     <script src="../js/app.js" type="text/javascript" defer></script>
     </main>
     <!--Comienza footer*/-->
-    <footer class="footerSucribe">
+    <footer class="base-footer" id="footer_contact">
         <div>
             <p class="pFooter"> Nicolas Maximiliano Caminos © 2023 </p>
         </div>

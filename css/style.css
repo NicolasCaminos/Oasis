@@ -235,33 +235,6 @@ p-last-child {
   align-items: center;
 }
 
-.galeria img {
-  margin-top: 50px;
-  gap: 100px;
-  box-shadow: 0 8px 10px -4px rgba(0, 0, 0, 0.6);
-  border-radius: 15px;
-}
-
-.materialbox-caption {
-  bottom: 30px;
-  right: 0;
-  width: 40%;
-  height: auto;
-  padding: 10px;
-  margin: auto;
-  background: #000;
-  box-shadow: 5px 5px #fff;
-  font-size: 20px;
-  color: #fff;
-  line-height: 28px;
-}
-
-.galeria .col {
-  display: inline-block;
-  gap: 100px;
-  margin-bottom: 20px;
-}
-
 /*PSEDO CLASES*/
 :is(h1, h2) {
   display: block;
@@ -408,6 +381,7 @@ div .article_video {
   .materialbox-caption {
     width: 70%;
   }
+  /*Discography*/
   .albumStudio {
     display: block !important;
   }
@@ -416,6 +390,28 @@ div .article_video {
   }
   .albumStudio .row .card {
     left: 50% !important;
+  }
+  /*Galery*/
+  div.row.galeria {
+    display: inline !important;
+  }
+  .materialbox-caption {
+    bottom: 30px;
+    right: 0;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    background: #000;
+    box-shadow: 5px 5px #fff;
+    font-size: 20px;
+    color: #fff;
+    line-height: 28px;
+  }
+  .galeria .col {
+    display: inline-block;
+    gap: 100px;
+    margin-bottom: 20px;
   }
 }
 /* */
@@ -510,6 +506,7 @@ div .article_video {
   .video-item {
     position: relative;
     width: 100%;
+    top: 0px !important;
   }
   .video-item-element {
     position: absolute;
@@ -661,9 +658,42 @@ div .article_video {
     gap: 10px !important;
     margin-top: 10vh !important;
   }
-}
-.materialbox-caption {
-  width: 70%;
+  /*Galery*/
+  .galeria img {
+    display: inline-block !important;
+    width: 600px !important;
+    margin-top: 50px;
+    gap: 50px;
+    box-shadow: 0 8px 10px -4px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    display: flex !important;
+  }
+  .materialbox-caption {
+    bottom: 30px;
+    right: 0;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    background: #000;
+    box-shadow: 5px 5px #fff;
+    font-size: 20px;
+    color: #fff;
+    line-height: 28px;
+  }
+  .galeria .col {
+    display: inline-block !important;
+    gap: 150px;
+    margin-bottom: 20px;
+    width: 600px !important;
+  }
+  /*CONTACT*/
+  .body-contact {
+    height: 30vh !important;
+  }
+  #footer_contact {
+    top: 32vh !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
