@@ -1,14 +1,13 @@
-const preferedColorScheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'light' : 'dark';
+const preferedColorScheme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
 const slider = document.getElementById('slider');
 
 const setTheme = (theme) => {
     document.documentElement.setAttribute('data-theme', theme);
-
     localStorage.setItem('theme', theme);
 }
 
 slider.addEventListener('click', () => {
-    let switchToTheme = localStorage.getItem('theme') === 'dark' ? 'dark' : 'dark';
+    let switchToTheme = localStorage.getItem('theme') === 'dark' ? 'light' : 'dark';
     setTheme(switchToTheme);
 });
 
@@ -17,11 +16,10 @@ checkbox.checked = eval(window.localStorage.getItem(checkbox.id))
 
 checkbox.addEventListener('change', function () {
     window.localStorage.setItem(checkbox.id, checkbox.checked)
-
 })
 
-
 setTheme(localStorage.getItem('theme') || preferedColorScheme);
+
 
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (() => {
