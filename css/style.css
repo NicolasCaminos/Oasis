@@ -408,6 +408,15 @@ div .article_video {
   .materialbox-caption {
     width: 70%;
   }
+  .albumStudio {
+    display: block !important;
+  }
+  .albumStudio .row {
+    display: block !important;
+  }
+  .albumStudio .row .card {
+    left: 50% !important;
+  }
 }
 /* */
 @media (max-width: 975px) {
