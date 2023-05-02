@@ -15,7 +15,8 @@
 /*leading / line heights*/
 /*COLORS*/
 /*THEME GLOBAL VALUES*/
-html {
+:root html {
+  color-scheme: light;
   overflow-y: auto;
   overflow-x: hidden;
 }

@@ -36,7 +36,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Changa+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap");
-html {
+:root html {
+  color-scheme: light;
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -78,27 +79,27 @@ body #footerhystory {
   top: 400vh;
 }
 
-:root[data-theme=dark] {
+:root [data-theme=dark] {
   color-scheme: dark;
   --oasis-body-bg-color: #0f172a;
   --oasis-body-text-color: #FFFFFF;
   --oasis-heading-text-color: #FFFFFF;
 }
-:root[data-theme=dark] #navbar_oasis {
+:root [data-theme=dark] #navbar_oasis {
   background-color: #0f172a !important;
   color: #FFFFFF !important;
 }
-:root[data-theme=dark] #navbar_oasis .navbar-toggler {
+:root [data-theme=dark] #navbar_oasis .navbar-toggler {
   background-color: #FFFFFF !important;
 }
-:root[data-theme=dark] #navbar_oasis li a {
+:root [data-theme=dark] #navbar_oasis li a {
   color: #FFFFFF !important;
 }
-:root[data-theme=dark] .embed-iframe-items::-webkit-scrollbar-thumb {
+:root [data-theme=dark] .embed-iframe-items::-webkit-scrollbar-thumb {
   background-color: #FFFFFF;
   border-radius: 10px;
 }
-:root[data-theme=dark] a {
+:root [data-theme=dark] a {
   color: #FFFFFF !important;
 }
 
