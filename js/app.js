@@ -1,4 +1,3 @@
-const preferedColorScheme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'dark' : 'light';
 const slider = document.getElementById('slider');
 
 const setTheme = (theme) => {
