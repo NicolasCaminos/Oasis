@@ -1,4 +1,4 @@
-const preferedColorScheme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'dark' : 'light';
+const preferedColorScheme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
 const slider = document.getElementById('slider');
 
 const setTheme = (theme) => {
@@ -7,7 +7,7 @@ const setTheme = (theme) => {
 }
 
 slider.addEventListener('click', () => {
-    let switchToTheme = localStorage.getItem('theme') === 'dark' ? 'light' : 'dark';
+    let switchToTheme = localStorage.getItem('theme') === 'light' ? 'dark' : 'light';
     setTheme(switchToTheme);
 });
 
