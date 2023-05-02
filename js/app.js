@@ -3,6 +3,7 @@ const slider = document.getElementById('slider');
 
 const setTheme = (theme) => {
     document.documentElement.setAttribute('data-theme', theme);
+
     localStorage.setItem('theme', theme);
 }
 
@@ -16,9 +17,7 @@ checkbox.checked = eval(window.localStorage.getItem(checkbox.id))
 
 checkbox.addEventListener('change', function () {
     window.localStorage.setItem(checkbox.id, checkbox.checked)
-    if (slider === `data-theme=${'dark'}`) {
-        checkbox.checked = true;
-    }
+
 })
 
 
