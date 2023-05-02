@@ -36,7 +36,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Changa+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap");
-html {
+:root {
   color-scheme: "light" !important;
   overflow-y: auto;
   overflow-x: hidden;
