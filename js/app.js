@@ -8,7 +8,7 @@ const setTheme = (theme) => {
 }
 
 slider.addEventListener('click', () => {
-    let switchToTheme = localStorage.getItem('theme') === 'dark' ? 'light' : 'light';
+    let switchToTheme = localStorage.getItem('theme') === 'dark' ? 'light' : 'dark';
     setTheme(switchToTheme);
 });
 
