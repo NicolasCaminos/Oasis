@@ -1,6 +1,7 @@
 // Escuchar cambios en checkbox
-const preferedColorScheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'light' : 'dark';
+const preferedColorScheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 const slider = document.getElementById('slider');
+
 
 const setTheme = (theme) => {
     document.documentElement.setAttribute('data-theme', theme);
