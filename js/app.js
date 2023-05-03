@@ -15,7 +15,7 @@ slider.addEventListener('click', () => {
 // Buscar valor en localStorage, si no existe, poner en 'off'
 let DarkMode = localStorage.getItem('dark') || 'on';
 //Obtener el checkbox
-let checkDark = document.getElementById('slider');
+let checkDark = document.getElementById('#slider');
 // Marcar checkbox y aplicar estilo a body si darkMode = 'on'
 if (DarkMode == 'on') {
     checkDark.checked = true;
