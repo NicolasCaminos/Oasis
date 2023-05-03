@@ -21,6 +21,12 @@ slider.addEventListener('click', () => {
     setTheme(switchToTheme);
 });
 
+checkbox = document.getElementById('slider')
+checkbox.checked = eval(window.localStorage.getItem(checkbox.id))
+
+checkbox.addEventListener('change', function () {
+    window.localStorage.setItem(slider.id, slider.checked)
+})
 
 setTheme(localStorage.getItem('theme') || preferedColorScheme);
 
