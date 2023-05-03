@@ -1,4 +1,4 @@
-const preferedColorScheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+const preferedColorScheme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'dark' : 'light';
 const slider = document.getElementById('slider');
 
 const setTheme = (theme) => {
@@ -7,7 +7,7 @@ const setTheme = (theme) => {
 }
 
 slider.addEventListener('click', () => {
-    let switchToTheme = sessionStorage.getItem('theme') === 'dark' ? 'light' : 'dark';
+    let switchToTheme = localStorage.getItem('theme') === 'dark' ? 'light' : 'dark';
     setTheme(switchToTheme);
 });
 
@@ -15,7 +15,7 @@ checkbox = document.getElementById('slider')
 checkbox.checked = eval(window.localStorage.getItem(checkbox.id))
 
 checkbox.addEventListener('change', function () {
-    window.sessionStorage.setItem(checkbox.id, checkbox.checked)
+    window.localStorage.setItem(checkbox.id, checkbox.checked)
 })
 
 setTheme(localStorage.getItem('theme') || preferedColorScheme);
