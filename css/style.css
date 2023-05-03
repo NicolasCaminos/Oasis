@@ -49,11 +49,11 @@ body {
   -moz-osx-fontt-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   -webkit-top-highlight-color: transparent;
-  color: var(--oasis-body-text-color, #64748b);
+  color: var(--oasis-body-text-color, #64748b) !important;
   font-size: var(--oasis-font-size-base, 1rem);
   line-height: var(--oasis-line-height-base, 1.5);
   font-weight: var(--oasis-font-weigth-base, 400);
-  background-color: var(--oasis-body-bg-color, #f1f5f9);
+  background-color: var(--oasis-body-bg-color, #f1f5f9) !important;
   font-family: var(--oasis-font-primary, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");
 }
 body body::-webkit-scrollbar {
