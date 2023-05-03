@@ -13,11 +13,11 @@ body {
     -moz-osx-fontt-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     -webkit-top-highlight-color: transparent;
-    color: $body-text-color;
+    color: $body-text-color !important;
     font-size: $font-size-base;
     line-height: $line-height-base;
     font-weight: $font-weigth-base;
-    background-color: $body-bg-color;
+    background-color: $body-bg-color !important;
     font-family: $font-primary;
 
     body::-webkit-scrollbar {
