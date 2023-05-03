@@ -11,14 +11,24 @@ slider.addEventListener('click', () => {
     let switchToTheme = localStorage.getItem('theme') === 'dark' ? 'light' : 'dark';
     setTheme(switchToTheme);
 });
-// Buscar valor en localStorage, si no existe, poner en 'off'
-let DarkMode = localStorage.getItem('dark') || 'off';
-// Obtener el checkbox
-let checkDark = document.getElementById('slider');
-// Marcar checkbox y aplicar estilo a body si darkMode = 'on'
-if (DarkMode == 'off') {
-    checkDark.checked = true;
-}
+
+const boton = document.getElementById('dark');
+// Código para leer el modo actual al iniciar la pagina
+// Si no existe en localStorage, se asigna 1 por defecto
+let modo = localStorage.getItem('mode') || 1;
+// Aplicar cuando se carga la página
+setMode();
+
+// Evento al hacer click en el boton y cambiar el modo
+slider.addEventListener('click', function () {
+    // Solo hay que cambiar el valor actual de la variable
+    if (modo == 1) {
+        modo = 2;
+    } else {
+        modo = 1;
+    }
+    // Aplicar cambios
+});
 
 checkbox = document.getElementById('slider')
 checkbox.checked = eval(window.localStorage.getItem(checkbox.id))
