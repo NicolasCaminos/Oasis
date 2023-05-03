@@ -20,6 +20,9 @@ checkbox.addEventListener('change', function () {
 
 setTheme(localStorage.getItem('theme') || preferedColorScheme);
 
+if (localStorage.getItem('theme') === 'dark') {
+    window.localStorage.getItem(checkbox.checked == true)
+}
 
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (() => {
