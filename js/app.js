@@ -2,6 +2,14 @@
 const preferedColorScheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 const slider = document.getElementById('slider');
 
+// Buscar valor en localStorage, si no existe, poner en 'off'
+let DarkMode = localStorage.getItem('dark') || 'on';
+// Obtener el checkbox
+let checkDark = document.getElementById('slider');
+// Marcar checkbox y aplicar estilo a body si darkMode = 'on'
+if (DarkMode == 'on') {
+    checkDark.checked = true;
+}
 
 const setTheme = (theme) => {
     document.documentElement.setAttribute('data-theme', theme);
@@ -13,14 +21,6 @@ slider.addEventListener('click', () => {
     setTheme(switchToTheme);
 });
 
-// Buscar valor en localStorage, si no existe, poner en 'off'
-let DarkMode = localStorage.getItem('dark') || 'on';
-// Obtener el checkbox
-let checkDark = document.getElementById('slider');
-// Marcar checkbox y aplicar estilo a body si darkMode = 'on'
-if (DarkMode == 'on') {
-    checkDark.checked = true;
-}
 
 setTheme(localStorage.getItem('theme') || preferedColorScheme);
 
