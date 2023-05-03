@@ -17,7 +17,7 @@ let DarkMode = localStorage.getItem('dark') || 'on';
 // Obtener el checkbox
 let checkDark = document.getElementById('slider');
 // Marcar checkbox y aplicar estilo a body si darkMode = 'on'
-if (DarkMode === 'on') {
+if (DarkMode == 'on') {
     checkDark.checked = true;
 }
 else{
