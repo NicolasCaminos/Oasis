@@ -11,24 +11,9 @@ slider.addEventListener('click', () => {
     setTheme(switchToTheme);
 });
 
-checkbox = document.getElementById('slider')
-checkbox.checked = eval(window.localStorage.getItem(checkbox.id))
-
-checkbox.addEventListener('change', function () {
-    window.localStorage.setItem(checkbox.id, checkbox.checked)
-})
 
 setTheme(localStorage.getItem('theme') || preferedColorScheme);
 
-
-function check() {
-    const slider = document.getElementById('slider');
-    if (preferedColorScheme === 'dark'()) {
-
-        $("#slider").click();
-
-    }
-}
 
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (() => {
