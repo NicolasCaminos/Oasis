@@ -3,14 +3,14 @@ const preferedColorScheme = window.matchMedia('(prefers-color-scheme: dark)').ma
 const slider = document.getElementById('slider');
 
 // Buscar valor en localStorage, si no existe, poner en 'off'
-let DarkMode = localStorage.getItem('dark') || 'on';
+let DarkMode = localStorage.getItem('dark') || 'off';
 // Obtener el checkbox
 let checkDark = document.getElementById('slider');
 // Marcar checkbox y aplicar estilo a body si darkMode = 'on'
-if (DarkMode == 'on') {
-    checkDark.checked = true;
+if (DarkMode == 'off') {
+    slider.checked = false;
 }
-
+setTheme(localStorage.getItem('theme') || preferedColorScheme);
 const setTheme = (theme) => {
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('theme', theme);
@@ -28,24 +28,24 @@ checkbox.addEventListener('change', function () {
     window.localStorage.setItem(slider.id, slider.checked)
 })
 
-setTheme(localStorage.getItem('theme') || preferedColorScheme);
 
-// Example starter JavaScript for disabling form submissions if there are invalid fields
-(() => {
-    'use strict'
 
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    const forms = document.querySelectorAll('.needs-validation')
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (() => {
+        'use strict'
 
-    // Loop over them and prevent submission
-    Array.from(forms).forEach(form => {
-        form.addEventListener('submit', event => {
-            if (!form.checkValidity()) {
-                event.preventDefault()
-                event.stopPropagation()
-            }
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        const forms = document.querySelectorAll('.needs-validation')
 
-            form.classList.add('was-validated')
-        }, false)
-    })
-})()
+        // Loop over them and prevent submission
+        Array.from(forms).forEach(form => {
+            form.addEventListener('submit', event => {
+                if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                }
+
+                form.classList.add('was-validated')
+            }, false)
+        })
+    })()
