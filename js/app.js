@@ -24,7 +24,7 @@ if (DarkMode == 'on') {
 
 setTheme(localStorage.getItem('theme') || preferedColorScheme);
 
-
+localStorage.clear();
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (() => {
     'use strict'
