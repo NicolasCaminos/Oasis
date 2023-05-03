@@ -21,7 +21,7 @@ if (DarkMode == 'on') {
     checkDark.checked = true;
 }
 else{
-check.Dark.checked= false;
+checkDark.checked= false;
 }
 
 setTheme(localStorage.getItem('theme') || preferedColorScheme);
