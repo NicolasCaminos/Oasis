@@ -37,7 +37,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Changa+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap");
 :root {
-  color-scheme: "light" !important;
+  color-scheme: "light";
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -231,11 +231,6 @@ p-last-child {
   font-size: 16px;
 }
 
-.check {
-  display: flex;
-  align-items: center;
-}
-
 /*PSEDO CLASES*/
 :is(h1, h2) {
   display: block;
@@ -257,6 +252,12 @@ p-last-child {
 }
 
 /* INDEX.HTML */
+.form-check {
+  display: flex;
+  align-items: center;
+  left: 30px;
+}
+
 .cabecera-info-textos {
   text-align: center;
   gap: 50px;

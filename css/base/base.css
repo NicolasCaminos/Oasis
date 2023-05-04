@@ -16,7 +16,7 @@
 /*COLORS*/
 /*THEME GLOBAL VALUES*/
 :root {
-  color-scheme: "light" !important;
+  color-scheme: "light";
   overflow-y: auto;
   overflow-x: hidden;
 }

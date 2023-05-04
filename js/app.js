@@ -1,6 +1,7 @@
 
-// Escuchar cambios en checkbox
+// Escuchar el tema preferido del cliente en su sistema
 const preferedColorScheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'light' : 'dark';
+// Obtener el checkbox
 const slider = document.getElementById('slider');
 
 const setTheme = (theme) => {
@@ -18,10 +19,10 @@ setTheme(localStorage.getItem('theme') || preferedColorScheme);
 let darkMode = localStorage.getItem('dark') || 'on';
 
 // Obtener el checkbox
-let checkDark = document.getElementById('slider');
+let checkDark = document.getElementById('#slider');
 // Marcar checkbox y aplicar estilo a body si darkMode = 'on'
 if (darkMode == 'on') {
-    checkDark.checked = true;
+    slider.checked = true;
 }
 
 
