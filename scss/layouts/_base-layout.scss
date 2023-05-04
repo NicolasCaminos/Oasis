@@ -20,8 +20,7 @@ $footer-text-color: var(--#{prefix}-header-border-color, $color-slate-300);
         box-shadow: 0 0 1em -0.125em rgb(10 10 10/10%),
             0 0 1px rgb(10 10 10/2%);
         border-bottom: 1px solid $header-border-color;
-        background-color: $header-bg-color 
-
+        background-color: $header-bg-color
     }
 
     &-content {
@@ -36,7 +35,7 @@ $footer-text-color: var(--#{prefix}-header-border-color, $color-slate-300);
         font-size: 16px;
         font-weight: 400;
         bottom: 0;
-        background-color:$footer-bg-color;
+        background-color: $footer-bg-color;
 
         p {
             color: $footer-text-color;
@@ -49,7 +48,8 @@ $footer-text-color: var(--#{prefix}-header-border-color, $color-slate-300);
             list-style: none;
             gap: 15px;
             left: 120vh;
-            bottom: 0px;;
+            bottom: 0px;
+            ;
             align-items: center;
             justify-content: right;
             text-decoration: none;
@@ -57,8 +57,8 @@ $footer-text-color: var(--#{prefix}-header-border-color, $color-slate-300);
 
         li a {
             text-decoration: none;
-                font-size: 16px;
-            }
-            }
-            
+            font-size: 16px;
+        }
     }
+
+}
