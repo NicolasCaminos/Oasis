@@ -1,5 +1,5 @@
 /*Variables locales*/
-$header-bg-color:var(--#{prefix}-header-bg-color,$color-slate-100);
+$header-bg-color: var(--#{prefix}-header-bg-color, $color-slate-100);
 $header-border-color: var(--#{prefix}-header-border-color, $color-slate-300);
 
 $footer-bg-color: var(--#{prefix}-header-bg-color, $color-slate-800);
@@ -31,6 +31,9 @@ $footer-text-color: var(--#{prefix}-header-border-color, $color-slate-300);
 
     &-footer {
         display: flex;
+        position: relative;
+        margin-top: 20vh;
+        align-items: center;
         padding: 32px 16px;
         font-size: 16px;
         font-weight: 400;
@@ -49,10 +52,11 @@ $footer-text-color: var(--#{prefix}-header-border-color, $color-slate-300);
             gap: 15px;
             left: 120vh;
             bottom: 0px;
-            ;
             align-items: center;
             justify-content: right;
             text-decoration: none;
+            position: relative;
+
         }
 
         li a {
@@ -61,4 +65,10 @@ $footer-text-color: var(--#{prefix}-header-border-color, $color-slate-300);
         }
     }
 
+}
+
+#footerhystory {
+    position: relative!important;
+    top: 790vh !important;
+    width: 100%;
 }

@@ -53,9 +53,5 @@ body img {
 body header {
   color: var(--oasis-body-bg-color, #f1f5f9);
 }
-body #footerhystory {
-  bottom: 0;
-  top: 400vh;
-}
 
 /*# sourceMappingURL=base.css.map */
