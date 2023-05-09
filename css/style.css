@@ -1312,7 +1312,7 @@ div.row {
   }
 }
 /* */
-@media only screen and (max-width: 975px) {
+@media (max-width: 975px) {
   /*Hystory*/
   p {
     font-size: 16px;
