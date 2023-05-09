@@ -317,6 +317,12 @@
 /* // Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 360px) and (max-width: 576px) {
   /*Hystory*/
+  p {
+    font-size: 16px !important;
+  }
+  h3 {
+    font-size: 30px !important;
+  }
   .video-item .video-item-element {
     position: relative;
     top: 0;
@@ -369,16 +375,17 @@
   }
   .article_video-hystory2 {
     top: 35vh;
+    width: 400px;
   }
   .article_video-hystory2 .three-pic {
-    width: 30%;
+    width: 20%;
     top: 15vh;
     border-width: 5px 5px 5px;
   }
-  .article_video-hystory2 .article_video-hystory2a {
+  .article_video-hystory2 .article_video-hystory2a p {
     position: relative;
     width: 70%;
-    left: -200px;
+    right: 600px;
   }
   .article_video-hystory3 .four-pic {
     top: 90vh;
@@ -387,7 +394,7 @@
   }
   .article_video-hystory3 h3 {
     position: absolute;
-    top: 250vh;
+    top: 220vh;
   }
   .article_video-hystory3 .article_video-hystory3a {
     top: 350vh;
@@ -409,7 +416,7 @@
   .article_video-history5 .six-pic {
     position: relative;
     width: 30%;
-    top: 160vh;
+    top: 210vh;
     border-width: 5px 5px 5px;
   }
   .article_video-history5 p {
@@ -419,7 +426,7 @@
   .article_video-history5 h3 {
     position: absolute;
     top: 460vh;
-    width: 55%;
+    width: 65%;
   }
   .seven-pic {
     position: absolute;
@@ -435,7 +442,7 @@
     float: left;
     height: 100vh;
     width: 30%;
-    left: 360px;
+    left: 320px;
     border-width: 5px 5px 5px;
   }
   .article_video-history6 p {
@@ -553,248 +560,5 @@
   }
 }
 /* */
-@media only screen and (min-width: 768px) and (max-width: 975px) {
-  /*Hystory*/
-  p {
-    font-size: 16px;
-  }
-  h3 {
-    font-size: 30px !important;
-  }
-  .video-item .video-item-element {
-    position: relative;
-    top: 0;
-    left: 0;
-    min-width: 100vw;
-    max-height: 150vh;
-  }
-  .logo-video {
-    position: absolute;
-    left: 32%;
-    top: 100px;
-    width: 33%;
-    height: 100px;
-  }
-  .text-header {
-    position: absolute;
-    left: 30%;
-    top: 4%;
-    width: 40%;
-    height: 30%;
-  }
-  .text-header h1 {
-    color: #fff;
-    font-family: "Changa One", cursive;
-  }
-  .seccion-uno-article-intro {
-    top: 10vh;
-  }
-  .one-pic {
-    position: relative;
-    height: 150px;
-    width: 150px;
-    left: 10px;
-    bottom: 240px;
-    border-width: 5px 5px 5px;
-  }
-  .article_video-hystory1 {
-    top: 100px;
-  }
-  .two-pic {
-    position: relative;
-    width: 100%;
-    top: 15vh;
-    border-width: 5px 5px 5px;
-  }
-  .second-pic {
-    width: 80%;
-    top: 20vh;
-    border-width: 5px 5px 5px;
-  }
-  .article_video-hystory2 {
-    top: 35vh;
-  }
-  .article_video-hystory2 .three-pic {
-    width: 30%;
-    top: 15vh;
-    border-width: 5px 5px 5px;
-  }
-  .article_video-hystory2 .article_video-hystory2a {
-    position: relative;
-    width: 70%;
-    left: 100px;
-  }
-  .article_video-hystory3 .four-pic {
-    top: 70vh;
-    height: 60vh;
-    border-width: 5px 5px 5px;
-  }
-  .article_video-hystory3 h3 {
-    position: absolute;
-    top: 220vh;
-  }
-  .article_video-hystory3 .article_video-hystory3a {
-    top: 300vh;
-    width: 90%;
-  }
-  .article_video-hystory4 .five-pic {
-    position: relative;
-    top: 100vh;
-    float: left;
-    height: 50vh;
-    width: 90%;
-    border-width: 5px 5px 5px;
-  }
-  .article_video-hystory4 .article_video-hystory4a {
-    position: absolute;
-    top: 390vh;
-    width: 100%;
-  }
-  .article_video-history5 .six-pic {
-    position: relative;
-    width: 30%;
-    top: 130vh;
-    border-width: 5px 5px 5px;
-  }
-  .article_video-history5 p {
-    position: absolute;
-    width: 90%;
-  }
-  .article_video-history5 h3 {
-    position: absolute;
-    top: 410vh;
-    width: 55%;
-  }
-  .seven-pic {
-    position: absolute;
-    top: 470vh;
-    float: left;
-    height: 100vh;
-    width: 80%;
-    border-width: 5px 5px 5px;
-  }
-  .eigth-pic {
-    position: absolute;
-    top: 470vh;
-    float: left;
-    height: 100vh;
-    width: 30%;
-    left: 500px;
-    border-width: 5px 5px 5px;
-  }
-  .article_video-history6 p {
-    position: absolute;
-    top: 580vh;
-    width: 300px;
-  }
-  .article_video-history6 .nine-pic {
-    height: 30%;
-    width: 30%;
-    left: 140px;
-    top: 300vh;
-    border-width: 5px 5px 5px;
-  }
-  .article_video-history6 h3 {
-    top: 620vh;
-  }
-  .article_video-history6 .ten-pic {
-    position: relative;
-    top: 330vh;
-    width: 300px;
-    height: 80vh;
-    border-width: 5px 5px 5px;
-  }
-  .article_video-history6 .history6_second-para {
-    position: relative;
-    top: 280vh;
-    left: 50%;
-    width: 50%;
-  }
-  .article_video-history7 .eleven-pic {
-    position: absolute;
-    height: 5%;
-    left: 0px;
-    top: 750vh;
-    width: 35%;
-    bottom: 150px;
-    border-width: 5px 5px 5px;
-  }
-  .article_video-history7 h3 {
-    top: 320vh;
-    text-align: right;
-  }
-  .article_video-history7 p {
-    position: absolute;
-    top: 760vh;
-    width: 65%;
-    left: 37%;
-    text-align: right;
-  }
-  .twelve-pic {
-    position: relative;
-    top: 400vh;
-    border-width: 5px 5px 5px;
-  }
-  .article_video-history8 h3 {
-    position: relative;
-    top: 400vh;
-    width: 100%;
-    left: 0px;
-  }
-  .article_video-history8 p {
-    top: 870vh;
-    width: 80%;
-  }
-  .article_video-history8 .thirteen-pic {
-    position: relative;
-    height: 40%;
-    top: 470vh;
-    width: 40%;
-    border-width: 5px 5px 5px;
-  }
-  .fourteen-pic {
-    position: relative;
-    top: 480vh;
-    left: 0%;
-    width: 80%;
-    border-width: 5px 5px 5px;
-  }
-  .article_video-history9 .fifteen-pic {
-    position: relative;
-    height: 400px;
-    float: right;
-    left: 15px;
-    top: 500vh;
-    width: 50%;
-    border-width: 5px 5px 5px;
-  }
-  .article_video-history9 .para-history9_1 {
-    position: relative;
-    top: 500vh;
-  }
-  .article_video-history9 .para-history9_2 {
-    position: relative;
-    top: 500vh;
-    width: 90%;
-  }
-  .article_video-history9 .para-history9_3 {
-    position: relative;
-    top: 510vh;
-  }
-  .article_video-history10 .sixteen-pic {
-    position: relative;
-    height: 800px;
-    float: right;
-    left: 0px;
-    top: 570vh;
-    width: 90%;
-    border-width: 5px 5px 5px;
-  }
-  .article_video-history10 h3 {
-    position: relative;
-    top: 550vh;
-    width: 100%;
-  }
-}
 
 /*# sourceMappingURL=history.css.map */
