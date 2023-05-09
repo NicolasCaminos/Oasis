@@ -79,7 +79,7 @@ div .article_video {
 }
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 360px) and (max-width: 576px) {
+@media only screen and (min-width: 360px) and (max-width: 576px) {
   /*INDEX*/
   .carousel-inner {
     margin-left: 3vh;
@@ -265,7 +265,7 @@ div .article_video {
   }
 }
 /* */
-@media (min-width: 768px) and (max-width: 975px) {
+@media only screen and (min-width: 768px) and (max-width: 975px) {
   /*INDEX*/
   .carousel-inner {
     margin-left: 1vh;
@@ -297,7 +297,7 @@ div .article_video {
   }
 }
 /* // X-Large devices (large desktops, 1200px and up)*/
-@media (min-width: 1400px) {
+@media only screen and (min-width: 1400px) {
   /*INDEX*/
   .carousel-inner {
     margin-left: 30vh;

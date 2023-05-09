@@ -70,7 +70,7 @@ $footer-text-color: var(--#{prefix}-header-border-color, $color-slate-300);
             top: 750vh;
             width: 100%;
         }
-@media screen and (min-width: 360px) and (max-width: 576px) {
+@media only screen and (min-width: 360px) and (max-width: 576px) {
     footer {
         position: relative;
         width: 100%;
@@ -101,7 +101,7 @@ $footer-text-color: var(--#{prefix}-header-border-color, $color-slate-300);
 }
 
 /* */
-@media screen and (min-width: 768px) and (max-width: 975px) {
+@media only screen and (min-width: 768px) and (max-width: 975px) {
     footer {
             position: relative;
             width: 100%;
@@ -132,7 +132,7 @@ $footer-text-color: var(--#{prefix}-header-border-color, $color-slate-300);
 }
 
 /* // X-Large devices (large desktops, 1200px and up)*/
-@media screen and (min-width: 1400px) {
+@media only screen and (min-width: 1400px) {
 
     /*CONTACT*/
     .body-contact {
