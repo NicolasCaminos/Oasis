@@ -80,7 +80,7 @@ $footer-text-color: var(--#{prefix}-header-border-color, $color-slate-300);
 
         ul {
             position: relative;
-            left: 15vh !important;
+            left: 15vh;
             list-style: none;
             gap: 15px;
             justify-content: right;

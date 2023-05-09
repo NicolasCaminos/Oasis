@@ -247,7 +247,7 @@ p-last-child {
   }
   footer ul {
     position: relative;
-    left: 15vh !important;
+    left: 15vh;
     list-style: none;
     gap: 15px;
     justify-content: right;
