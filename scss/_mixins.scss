@@ -1,0 +1,31 @@
+@mixin breakup($breakpoints){
+    @if map-has-key($breakpoints, $breakpoint){
+        @media (min-width: map-get($breakpoints,
+            $breakpoint)){
+            @content;
+        }
+    }@else{
+        @warn"`#{$breakpoint}` no es un breakpoint valido. Puede intentar con: #{map-keys($breakpoints)}.";
+    }
+}
+
+@mixin sm(){
+    @include breakup(sm){
+        @content;
+    }
+}
+@mixin md() {
+    @include breakup(md) {
+        @content;
+    }
+}
+@mixin lg() {
+    @include breakup(lg) {
+        @content;
+    }
+}
+@mixin xl() {
+    @include breakup(xl) {
+        @content;
+    }
+}
