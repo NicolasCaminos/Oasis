@@ -65,7 +65,11 @@ $footer-text-color: var(--#{prefix}-header-border-color, $color-slate-300);
         }
     }
 }
-
+        #footerhystory {
+            position: relative;
+            top: 750vh;
+            width: 100%;
+        }
 @media only screen and (min-width: 360px) and (max-width: 576px) {
     footer {
         position: relative;
