@@ -64,11 +64,50 @@ $footer-text-color: var(--#{prefix}-header-border-color, $color-slate-300);
             font-size: 16px;
         }
     }
-
 }
 
-#footerhystory {
-    position: relative!important;
-    top: 790vh !important;
-    width: 100%;
+@media only screen and (min-width: 360px) and (max-width: 576px) {
+    footer {
+        position: relative;
+        width: 100%;
+        height: 20vh;
+        top: 20vh;
+        font-size: 15px;
+
+        ul {
+            position: relative;
+            left: 15vh !important;
+            list-style: none;
+            gap: 15px;
+            justify-content: right;
+            text-decoration: none;
+
+            li a {
+                text-decoration: none;
+                font-size: 15px;
+            }
+        }
+    }
+
+    #footerhystory {
+        position: relative;
+        top: 650vh;
+        width: 100%;
+    }
+}
+
+/* */
+@media only screen and (min-width: 768px) and (max-width: 975px) {}
+
+/* // X-Large devices (large desktops, 1200px and up)*/
+@media only screen and (min-width: 1400px) {
+
+    /*CONTACT*/
+    .body-contact {
+        height: 30vh !important;
+    }
+
+    #footer_contact {
+        top: 32vh !important;
+    }
 }

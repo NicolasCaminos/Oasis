@@ -1,0 +1,52 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 360px) and (max-width: 576px) {
+  /*Discography*/
+  .albumStudio {
+    display: block !important;
+  }
+  .albumStudio .row {
+    display: block !important;
+  }
+  .albumStudio .row .card {
+    left: 20% !important;
+  }
+}
+/* */
+/* // X-Large devices (large desktops, 1200px and up)*/
+@media only screen and (min-width: 1400px) {
+  /*DISCOGRAPHY*/
+  .albumStudio {
+    display: inline-block !important;
+    text-align: center !important;
+  }
+  .albumStudio .col-sm-6 {
+    width: 30rem !important;
+    gap: 10px !important;
+    margin-top: 10vh !important;
+  }
+  .albumStudio .row {
+    display: flex !important;
+  }
+  .liveStudio {
+    display: inline-block !important;
+    text-align: center !important;
+    width: 50rem !important;
+    gap: 10px !important;
+    margin-top: 10vh !important;
+  }
+  .liveStudio .row {
+    display: flex !important;
+  }
+  .singleAlbum .col-sm-6 {
+    width: 30rem !important;
+    gap: 10px !important;
+    margin-top: 10vh !important;
+  }
+  .compilationAlbum .col-sm-6 {
+    width: 30rem !important;
+    gap: 10px !important;
+    margin-top: 10vh !important;
+  }
+}
+
+/*# sourceMappingURL=discography.css.map */
