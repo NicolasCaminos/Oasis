@@ -63,9 +63,14 @@ $footer-text-color: var(--#{prefix}-header-border-color, $color-slate-300);
             text-decoration: none;
             font-size: 16px;
         }
+
     }
 }
-
+                #footerhystory {
+                    position: relative;
+                    top: 750vh;
+                    width: 100%;
+                }
 @media only screen and (min-width: 360px) and (max-width: 576px) {
     footer {
         position: relative;
@@ -98,32 +103,28 @@ $footer-text-color: var(--#{prefix}-header-border-color, $color-slate-300);
 /* */
 @media only screen and (min-width: 768px) and (max-width: 975px) {
     footer {
+        position: relative;
+        width: 100%;
+        height: 20vh;
+        top: 20vh;
+        font-size: 15px;
+
+        ul {
             position: relative;
-            width: 100%;
-            height: 20vh;
-            top: 20vh;
-            font-size: 15px;
-    
-            ul {
-                position: relative;
-                left: 20vh;
-                list-style: none;
-                gap: 15px;
-                justify-content: right;
+            left: 35vh !important;
+            list-style: none;
+            gap: 15px;
+            justify-content: right;
+            text-decoration: none;
+
+            li a {
                 text-decoration: none;
-    
-                li a {
-                    text-decoration: none;
-                    font-size: 15px;
-                }
+                font-size: 15px;
             }
         }
-    
-        #footerhystory {
-            position: relative;
-            top: 590vh;
-            width: 100%;
-        }
+    }
+
+
 }
 
 /* // X-Large devices (large desktops, 1200px and up)*/
