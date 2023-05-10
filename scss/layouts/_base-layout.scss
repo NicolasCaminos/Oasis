@@ -65,11 +65,7 @@ $footer-text-color: var(--#{prefix}-header-border-color, $color-slate-300);
         }
     }
 }
-        #footerhystory {
-            position: relative;
-            top: 750vh;
-            width: 100%;
-        }
+
 @media only screen and (min-width: 360px) and (max-width: 576px) {
     footer {
         position: relative;
@@ -79,8 +75,7 @@ $footer-text-color: var(--#{prefix}-header-border-color, $color-slate-300);
         font-size: 15px;
 
         ul {
-            position: relative;
-            left: 15vh;
+            left: 15vh !important;
             list-style: none;
             gap: 15px;
             justify-content: right;
@@ -88,7 +83,7 @@ $footer-text-color: var(--#{prefix}-header-border-color, $color-slate-300);
 
             li a {
                 text-decoration: none;
-                font-size: 15px;
+                font-size: 5px;
             }
         }
     }
