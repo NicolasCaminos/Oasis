@@ -1,13 +1,5 @@
 /*INDEX*/
-@import "../mixins";
 
-h3 {
-    @include letras;
-}
-
-p {
-    @include letras;
-}
 .form-check {
     display: flex;
     align-items: center;
@@ -92,6 +84,7 @@ div .article_video {
 
 /* // Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 360px) and (max-width: 576px) {
+
 /*INDEX*/
     .carousel-inner {
         margin-left: 3vh;

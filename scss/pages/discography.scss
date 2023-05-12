@@ -1,28 +1,31 @@
-@import "../mixins";
 
-h3 {
-    @include letras;
-}
 
-p {
-    @include letras;
-}
 /* // Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 360px) and (max-width: 576px) {
+
     /*Discography*/
-        .albumStudio {
+    html {
+        h3 {
+            @include letras;
+        }
+
+        p {
+            @include letras;
+        }
+    }
+
+    .albumStudio {
+        display: block !important;
+
+        .row {
             display: block !important;
-    
-            .row {
-                display: block !important;
-    
-                .card {
-                    left: 20% !important;
-                }
+
+            .card {
+                left: 20% !important;
             }
         }
+    }
 }
-
 /* */
 @media only screen and (min-width: 768px) and (max-width: 975px) {
 

@@ -1,3 +1,4 @@
+@import "../mixins.scss";
 /*Variables locales*/
 $header-bg-color: var(--#{prefix}-header-bg-color, $color-slate-100);
 $header-border-color: var(--#{prefix}-header-border-color, $color-slate-300);
@@ -6,6 +7,7 @@ $footer-bg-color: var(--#{prefix}-header-bg-color, $color-slate-800);
 $footer-text-color: var(--#{prefix}-header-border-color, $color-slate-300);
 
 .base {
+
     &-layout {
         display: flex;
         flex-direction: column;
@@ -68,7 +70,7 @@ $footer-text-color: var(--#{prefix}-header-border-color, $color-slate-300);
 }
                 #footerhystory {
                     position: relative;
-                    top: 750vh;
+                    top: 80vh;
                     width: 100%;
                 }
 @media only screen and (min-width: 360px) and (max-width: 576px) {
@@ -95,7 +97,7 @@ $footer-text-color: var(--#{prefix}-header-border-color, $color-slate-300);
 
     #footerhystory {
         position: relative;
-        top: 20vh;
+        top: 30vh;
         width: 100%;
     }
 }

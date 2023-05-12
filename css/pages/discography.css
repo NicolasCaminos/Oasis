@@ -1,128 +1,17 @@
-/*css Variables prefix*/
-/*font family*/
-/*font sizes*/
-/*12px*/
-/*14px*/
-/*16px*/
-/*18px*/
-/*20px*/
-/*24px*/
-/*30*/
-/*36px*/
-/*48px*/
-/*60px*/
-/* font weigth*/
-/*leading / line heights*/
-/*COLORS*/
-/*THEME GLOBAL VALUES*/
-h3 { /* // Small devices (landscape phones, 576px and up) */
-  /* */
-  /* // X-Large devices (large desktops, 1200px and up)*/
-}
-@media only screen and (min-width: 360px) and (max-width: 576px) {
-  h3 p {
-    font-size: 0.85rem !important;
-  }
-  h3 h3 {
-    font-size: 1.25rem !important;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 975px) {
-  h3 p {
-    font-size: 0.85rem !important;
-  }
-  h3 h3 {
-    font-size: 1.25rem !important;
-  }
-}
-@media only screen and (min-width: 1400px) {
-  h3 p {
-    font-size: 1.125rem !important;
-  }
-  h3 h3 {
-    font-size: 1.875rem !important;
-  }
-}
+/* Error: Undefined mixin.
+ *   ,
+ * 9 |             @include letras;
+ *   |             ^^^^^^^^^^^^^^^
+ *   '
+ *   scss\pages\discography.scss 9:13  root stylesheet */
 
-p {
-  /* // Small devices (landscape phones, 576px and up) */
-  /* */
-  /* // X-Large devices (large desktops, 1200px and up)*/
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a   \2577 \a 9 \2502              @include letras;\d\a   \2502              ^^^^^^^^^^^^^^^\a   \2575 \a   scss\\pages\\discography.scss 9:13  root stylesheet";
 }
-@media only screen and (min-width: 360px) and (max-width: 576px) {
-  p p {
-    font-size: 0.85rem !important;
-  }
-  p h3 {
-    font-size: 1.25rem !important;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 975px) {
-  p p {
-    font-size: 0.85rem !important;
-  }
-  p h3 {
-    font-size: 1.25rem !important;
-  }
-}
-@media only screen and (min-width: 1400px) {
-  p p {
-    font-size: 1.125rem !important;
-  }
-  p h3 {
-    font-size: 1.875rem !important;
-  }
-}
-
-/* // Small devices (landscape phones, 576px and up) */
-@media only screen and (min-width: 360px) and (max-width: 576px) {
-  /*Discography*/
-  .albumStudio {
-    display: block !important;
-  }
-  .albumStudio .row {
-    display: block !important;
-  }
-  .albumStudio .row .card {
-    left: 20% !important;
-  }
-}
-/* */
-/* // X-Large devices (large desktops, 1200px and up)*/
-@media only screen and (min-width: 1400px) {
-  /*DISCOGRAPHY*/
-  .albumStudio {
-    display: inline-block !important;
-    text-align: center !important;
-  }
-  .albumStudio .col-sm-6 {
-    width: 30rem !important;
-    gap: 10px !important;
-    margin-top: 10vh !important;
-  }
-  .albumStudio .row {
-    display: flex !important;
-  }
-  .liveStudio {
-    display: inline-block !important;
-    text-align: center !important;
-    width: 50rem !important;
-    gap: 10px !important;
-    margin-top: 10vh !important;
-  }
-  .liveStudio .row {
-    display: flex !important;
-  }
-  .singleAlbum .col-sm-6 {
-    width: 30rem !important;
-    gap: 10px !important;
-    margin-top: 10vh !important;
-  }
-  .compilationAlbum .col-sm-6 {
-    width: 30rem !important;
-    gap: 10px !important;
-    margin-top: 10vh !important;
-  }
-}
-
-/*# sourceMappingURL=discography.css.map */

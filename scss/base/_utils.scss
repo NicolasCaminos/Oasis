@@ -1,3 +1,4 @@
+@import "../mixins.scss";
 .container {
     width: 100%;
     display: block;
@@ -6,4 +7,5 @@
     margin-right: auto;
     padding-left: 16px;
     padding-right: 16px;
+    @include letras;
 }
