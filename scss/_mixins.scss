@@ -1,31 +1,37 @@
-@mixin breakup($breakpoints){
-    @if map-has-key($breakpoints, $breakpoint){
-        @media (min-width: map-get($breakpoints,
-            $breakpoint)){
-            @content;
-        }
-    }@else{
-        @warn"`#{$breakpoint}` no es un breakpoint valido. Puede intentar con: #{map-keys($breakpoints)}.";
-    }
-}
+@import 'variables/variables.scss';
 
-@mixin sm(){
-    @include breakup(sm){
-        @content;
+@mixin letras {
+
+    /* // Small devices (landscape phones, 576px and up) */
+    @media only screen and (min-width: 360px) and (max-width: 576px) {
+        p {
+            font-size: $font-sm !important;
+        }
+
+        h3 {
+            font-size: $font-xl !important;
+        }
     }
-}
-@mixin md() {
-    @include breakup(md) {
-        @content;
+
+    /* */
+    @media only screen and (min-width: 768px) and (max-width: 975px) {
+        p {
+            font-size: $font-sm !important;
+        }
+
+        h3 {
+            font-size: $font-xl !important;
+        }
     }
-}
-@mixin lg() {
-    @include breakup(lg) {
-        @content;
-    }
-}
-@mixin xl() {
-    @include breakup(xl) {
-        @content;
+
+    /* // X-Large devices (large desktops, 1200px and up)*/
+    @media only screen and (min-width: 1400px) {
+        p {
+            font-size: $font-lg !important;
+        }
+
+        h3 {
+            font-size: $font-3xl !important;
+        }
     }
 }
