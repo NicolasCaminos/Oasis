@@ -1137,8 +1137,8 @@ div.row {
   }
   .container .article_video-hystory4 .five-pic {
     position: relative;
-    height: 400px;
-    top: 60px;
+    height: 300px;
+    top: 100px;
     width: 500px;
   }
   .container .article_video-history5 {
@@ -1162,6 +1162,7 @@ div.row {
     position: relataive;
     top: 100px;
     left: 0px;
+    height: 400px;
   }
   .container .eigth-pic {
     display: none;
