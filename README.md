@@ -53,6 +53,8 @@ Se añade favicon a la web
 
 ### Entrega 0.3
 
+Se solucionan bug de responsive, además se agrega contenido:
+
 <br>
 Themes night/light
 <br>
@@ -66,7 +68,7 @@ Mixin
 <br>
 Extend
 <br>
--vendors
+vendors
 <br>
 Base
 <br>
