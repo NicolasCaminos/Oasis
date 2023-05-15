@@ -78,9 +78,9 @@ SEO
 
 ### Screenshot
 
-<p align="left"> <img src="/images/readme/imagen1.jpg") alt="night mode" width="8700" height="500" />
+<p align="left"> <img src="/images/readme/imagen1.jpg") alt="night mode" max-width="fit-content" height="500" />
 <br>
-<img src="/images/readme/imagen2.jpg") alt="light" width="800" height="500" />
+<img src="/images/readme/imagen2.jpg") alt="light" max-width="fit-content" height="500" />
 <br>
 </p>
 
