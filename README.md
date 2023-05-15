@@ -10,10 +10,13 @@
 
 ## General Info
 
+Sitio web creado para el curso de "Desarrollo web" en Coderhouse. El mismo aún se encuentra en desarrollo.
+<br>
+
 ### V 0.1
 
 <br>
-Sitio web creado para el curso de "Desarrollo web" en Coderhouse. El mismo aún se encuentra en desarrollo.
+
 En el presente documento se encuentra el desarrollo del sistema web.
 
 Se adjunta .pdf con los wireframes del modelado de mismo.
