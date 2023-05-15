@@ -1044,8 +1044,8 @@ div.row {
     float: right;
     height: 160px;
     width: 160px;
-    top: 65px;
-    left: 65px;
+    top: 55px;
+    left: 25px;
   }
   .container .two-pic {
     top: 50px;
@@ -1119,7 +1119,7 @@ div.row {
   }
   .container .article_video-hystory4 {
     position: relative;
-    top: 300px;
+    top: 400px;
     max-width: fit-content;
     height: 900px;
   }
@@ -1143,7 +1143,7 @@ div.row {
   }
   .container .article_video-history5 {
     position: relative;
-    top: 30px;
+    top: 120px;
     max-width: fit-content;
   }
   .container .article_video-history5 .six-pic {
