@@ -54,12 +54,24 @@ Se añade favicon a la web
 ### V 0.4
 
 <br>
-Se añade Tema oscuro/claro
+Themes night/light
+<br>
 Variables
+<br>
 Nesting
-Partials
+<br>
+Partials/ Views
+<br>
 Mixin
+<br>
 Extend
+<br>
+-vendors
+<br>
+Base
+<br>
+Layouts
+<br>
 SEO
 
 ---
