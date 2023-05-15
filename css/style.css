@@ -722,13 +722,13 @@ div.row {
   left: 32%;
   top: 90px;
   width: 33%;
-  height: 100px;
+  height: 150px;
 }
 
 .text-header {
   position: absolute;
   left: 25%;
-  top: 1.5%;
+  top: 50vh;
   width: 40%;
   height: 50px;
   bottom: 0;
@@ -1014,7 +1014,7 @@ div.row {
   .text-header {
     position: absolute;
     left: 25%;
-    top: 1.5%;
+    top: 2.5%;
     width: 40%;
     height: 50px;
     bottom: 0;
@@ -1044,16 +1044,13 @@ div.row {
     float: right;
     height: 160px;
     width: 160px;
-    bottom: 100px;
+    top: 70px;
     left: 75px;
-    border-width: 1px 1px 1px;
   }
   .container .two-pic {
     top: 50px;
     height: 400px;
     width: 500px;
-    border-width: 5px 5px 5px;
-    border-style: solid solid solid;
   }
   .container .second-pic {
     position: relative;
@@ -1062,8 +1059,6 @@ div.row {
     width: 500px;
     float: right;
     right: 50px;
-    border-width: 5px 5px 5px;
-    border-style: solid solid solid;
     transform: rotate(3deg);
   }
   .container .article_video-hystory2 {
@@ -1087,8 +1082,6 @@ div.row {
     top: 15px;
     height: 100px;
     width: 100px;
-    border-width: 5px 5px 5px;
-    border-style: solid solid solid;
   }
   .container .article_video-hystory2 h3 {
     position: relative;
@@ -1113,8 +1106,6 @@ div.row {
     height: 400px;
     width: 500px;
     top: 87vh;
-    border-width: 5px 5px 5px;
-    border-style: solid solid solid;
   }
   .container .article_video-hystory3 .article_video-hystory31 {
     position: relative;
@@ -1149,8 +1140,6 @@ div.row {
     height: 400px;
     top: 60px;
     width: 500px;
-    border-width: 5px 5px 5px;
-    border-style: solid solid solid;
   }
   .container .article_video-history5 {
     position: relative;
@@ -1162,8 +1151,6 @@ div.row {
     height: 200px;
     width: 200px;
     float: left;
-    border-width: 5px 5px 5px;
-    border-style: solid solid solid;
   }
   .container .article_video-history5 h3 {
     position: relative;
@@ -1175,8 +1162,6 @@ div.row {
     position: relataive;
     top: 100px;
     left: 0px;
-    border-width: 5px 5px 5px;
-    border-style: solid solid solid;
   }
   .container .eigth-pic {
     display: none;
@@ -1195,8 +1180,6 @@ div.row {
   .container .article_video-history6 .ten-pic {
     max-width: fit-content;
     float: unset;
-    border-width: 5px 5px 5px;
-    border-style: solid solid solid;
   }
   .container .article_video-history6 .history6_second-para {
     position: relative;
@@ -1215,8 +1198,6 @@ div.row {
     height: 150px;
     width: 150px;
     float: right;
-    border-width: 5px 5px 5px;
-    border-style: solid solid solid;
   }
   .container .article_video-history8 {
     position: relative;
@@ -1227,14 +1208,10 @@ div.row {
     height: 150px;
     width: 150px;
     float: left;
-    border-width: 5px 5px 5px;
-    border-style: solid solid solid;
   }
   .container .fourteen-pic {
     position: relative;
     top: 100px;
-    border-width: 5px 5px 5px;
-    border-style: solid solid solid;
   }
   .container .article_video-history9 {
     position: relative;
@@ -1244,8 +1221,6 @@ div.row {
   .container .article_video-history9 .fifteen-pic {
     height: 150px;
     width: 150px;
-    border-width: 5px 5px 5px;
-    border-style: solid solid solid;
   }
   .container .article_video-history10 {
     position: relative;
@@ -1253,8 +1228,6 @@ div.row {
     width: fit-content;
   }
   .container .sixteen-pic {
-    border-width: 5px 5px 5px;
-    border-style: solid solid solid;
     max-width: 80%;
   }
 }

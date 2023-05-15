@@ -1,0 +1,4 @@
+ .borderpic {
+     border-width: 5px 5px 5px;
+     border-style: solid solid solid;
+ }
