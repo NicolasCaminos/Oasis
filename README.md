@@ -78,7 +78,6 @@ Para instalar los paquetes usados en el proyecto puede utilizar los siguientes c
 
 ```
 $ git clone NicolasCaminos/Oasis
-$ cd ../path/to/the/file
 $ npm install
 $ npm start
 $ npm install -g node-sass
