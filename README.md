@@ -78,9 +78,9 @@ SEO
 
 ### Screenshot
 
-![Image text] ("/images/readme/imagen1.jpg")
+<img src="/images/readme/imagen1.jpg") alt="night mode" width="400" height="500"/ />
 <br>
-![Image text] ("/images/readme/imagen2.jpg")
+<img src="/images/readme/imagen2.jpg") alt="light" width="400" height="500"/ />
 <br>
 
 ## Technologies
