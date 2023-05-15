@@ -78,9 +78,9 @@ SEO
 
 ### Screenshot
 
-![Image text] ("images/readme/imagen1.jpg")
+![Image text] ("/images/readme/imagen1.jpg")
 <br>
-![Image text] ("images/readme/imagen2.jpg")
+![Image text] ("/images/readme/imagen2.jpg")
 <br>
 
 ## Technologies
