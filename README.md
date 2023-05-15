@@ -77,9 +77,11 @@ SEO
 ---
 
 ### Screenshot
-
+#### Night Mode
 <p align="left"> <img src="/images/readme/imagen1.jpg") alt="night mode" max-width="fit-content" height="500" />
 <br>
+<br>
+#### Light Mode
 <img src="/images/readme/imagen2.jpg") alt="light" max-width="fit-content" height="500" />
 <br>
 </p>
