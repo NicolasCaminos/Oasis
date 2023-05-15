@@ -10,15 +10,18 @@
 
 ## General Info
 
----
+### V 0.1
 
-V 0.1
+<br>
 Sitio web creado para el curso de "Desarrollo web" en Coderhouse. El mismo aún se encuentra en desarrollo.
 En el presente documento se encuentra el desarrollo del sistema web.
 
-## Se adjunta .pdf con los wireframes del modelado de mismo.
+Se adjunta .pdf con los wireframes del modelado de mismo.
+<br>
 
-V 0.2
+### V 0.2
+
+<br>
 Prototipo de la web para tener una idea clara del resultado al que quieres llegar.
 
 Prototipo de la web
@@ -30,18 +33,24 @@ HTML (uso de etiquetas contenedoras, etiquetas multimedia y etiquetas de texto)
 
 Estilo inicial: comenzar a darle estilo básico a la web aplicando:
 
-## CSS (con modificadores de texto, colores, listas y box modeling)
+CSS (con modificadores de texto, colores, listas y box modeling)
+<br>
 
-V 0.3
+### V 0.3
+
+<br>
 Se agega a el contenido total de la web: index, contacto, galeria, historia y discografía
 
 Se realiza responsive en index, contacto y discografía.
 
 Se añade boostrap, maquetado con flex en algunos items
 
-## Se añade favicon a la web
+Se añade favicon a la web
+<br>
 
-V 0.4
+### V 0.4
+
+<br>
 Se añade Tema oscuro/claro
 Variables
 Nesting
