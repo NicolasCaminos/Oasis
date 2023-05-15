@@ -15,7 +15,7 @@ slider.addEventListener('click', () => {
 });
 setTheme(localStorage.getItem('theme') || preferedColorScheme);
 
-
+//JS Boostrap
 document.addEventListener('DOMContentLoaded', () => {
     // Buscar valor en localStorage, si no existe, poner en 'off'
     let darkMode = localStorage.getItem('dark') || 'on';
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 })
 
-
+//JS Boostrap
 checkbox.addEventListener('change', function () {
     window.localStorage.setItem(slider.id, slider.checked)
 })

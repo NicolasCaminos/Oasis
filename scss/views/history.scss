@@ -1,7 +1,6 @@
 /*Hystory*/
 @import "../mixins/mixins";
 
-
 .video-item {
     & .video-item-element {
         position: relative;
@@ -34,7 +33,6 @@
 }
 
 .container {
-
 
     & .article_video-hystory {
         height: 576px;
