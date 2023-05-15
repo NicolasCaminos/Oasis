@@ -1,5 +1,5 @@
 /*Hystory*/
-@import "../mixins";
+@import "../mixins/mixins";
 
 
 .video-item {
@@ -390,7 +390,7 @@
                 float: right;
                 height: 160px;
                 width: 160px;
-                bottom: 70px;
+                top: 55px;
                 left: 75px;
                 @extend .borderpic !optional;
             }

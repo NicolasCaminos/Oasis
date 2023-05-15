@@ -3,7 +3,7 @@
  * 9 |             @include letras;
  *   |             ^^^^^^^^^^^^^^^
  *   '
- *   scss\pages\discography.scss 9:13  root stylesheet */
+ *   scss\views\discography.scss 9:13  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a   \2577 \a 9 \2502              @include letras;\d\a   \2502              ^^^^^^^^^^^^^^^\a   \2575 \a   scss\\pages\\discography.scss 9:13  root stylesheet";
+  content: "Error: Undefined mixin.\a   \2577 \a 9 \2502              @include letras;\d\a   \2502              ^^^^^^^^^^^^^^^\a   \2575 \a   scss\\views\\discography.scss 9:13  root stylesheet";
 }
