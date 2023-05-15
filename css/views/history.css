@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*Hystory*/ /*css Variables prefix*/
 /*font family*/
 /*font sizes*/
@@ -42,6 +43,30 @@
   font-family: "Changa One", cursive;
 }
 
+#maquina-escribir {
+  display: flex;
+  white-space: nowrap;
+  /* los espacios en blanco no rompen la línea */
+  width: 180%;
+  /* el ancho será el número de caracteres que tiene nuestra línea */
+  animation: escribiendo 6s steps(180);
+  overflow: hidden;
+}
+
+.cursor {
+  animation: 0.9s parpadeo-cursor infinite;
+}
+
+@keyframes escribiendo {
+  from {
+    width: 0;
+  }
+}
+@keyframes parpadeo-cursor {
+  50% {
+    opacity: 0;
+  }
+}
 .container .article_video-hystory {
   height: 576px;
   max-width: fit-content;
@@ -144,6 +169,7 @@
 .container .article_video-hystory4 .first_para {
   position: absolute;
   top: 450px;
+  max-width: fit-content;
 }
 .container .article_video-hystory4 .third_para {
   position: absolute;
