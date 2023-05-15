@@ -12,7 +12,7 @@
 
 Sitio web creado para el curso de "Desarrollo web" en Coderhouse. El mismo aún se encuentra en desarrollo.
 <br>
-EL mismo cuenta con dos ramas de trabajo: Master (donde se aloja el proyecto funcionando) y V.01 donde se trabajan los updates
+EL mismo cuenta con dos ramas de trabajo: Master (donde se aloja el proyecto final) y en la rama V.01 donde se trabajan las updates y fix.
 <br>
 
 ### Entrega 0.1
