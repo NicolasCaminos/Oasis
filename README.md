@@ -78,11 +78,11 @@ SEO
 
 ### Screenshot
 
-<img src="/images/readme/imagen1.jpg") alt="night mode" width="400" height="500"/ />
+<p align="left"> <img src="/images/readme/imagen1.jpg") alt="night mode" width="400" height="500" />
 <br>
-<img src="/images/readme/imagen2.jpg") alt="light" width="400" height="500"/ />
+<img src="/images/readme/imagen2.jpg") alt="light" width="400" height="500" />
 <br>
-
+</p>
 ## Technologies
 
 <h3 align="left">Languages and Tools:</h3>
