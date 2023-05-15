@@ -12,8 +12,10 @@
 
 Sitio web creado para el curso de "Desarrollo web" en Coderhouse. El mismo aún se encuentra en desarrollo.
 <br>
+EL mismo cuenta con dos ramas de trabajo: Master (donde se aloja el proyecto funcionando) y V.01 donde se trabajan los updates
+<br>
 
-### V 0.1
+### Entrega 0.1
 
 <br>
 
@@ -21,8 +23,6 @@ En el presente documento se encuentra el desarrollo del sistema web.
 
 Se adjunta .pdf con los wireframes del modelado de mismo.
 <br>
-
-### V 0.2
 
 <br>
 Prototipo de la web para tener una idea clara del resultado al que quieres llegar.
@@ -39,7 +39,7 @@ Estilo inicial: comenzar a darle estilo básico a la web aplicando:
 CSS (con modificadores de texto, colores, listas y box modeling)
 <br>
 
-### V 0.3
+### Entrega 0.2
 
 <br>
 Se agega a el contenido total de la web: index, contacto, galeria, historia y discografía
@@ -51,7 +51,7 @@ Se añade boostrap, maquetado con flex en algunos items
 Se añade favicon a la web
 <br>
 
-### V 0.4
+### Entrega 0.3
 
 <br>
 Themes night/light
