@@ -36,12 +36,12 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 })
 
-//JS Boostrap
-checkbox.addEventListener('change', function () {
+
+checkDark.addEventListener('change', function () {
     window.localStorage.setItem(slider.id, slider.checked)
 })
 
-
+    //JS Boostrap
     // Example starter JavaScript for disabling form submissions if there are invalid fields
     (() => {
         'use strict'
