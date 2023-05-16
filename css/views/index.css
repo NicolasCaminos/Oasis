@@ -148,6 +148,9 @@ div .article_video {
   div.row {
     display: grid !important;
   }
+  .loader-section {
+    left: 4vh;
+  }
   footer {
     position: relative;
     width: 100%;
