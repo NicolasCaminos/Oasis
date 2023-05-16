@@ -15,7 +15,7 @@ slider.addEventListener('click', () => {
 });
 setTheme(localStorage.getItem('theme') || preferedColorScheme);
 
-//JS Boostrap
+
 document.addEventListener('DOMContentLoaded', () => {
     // Buscar valor en localStorage, si no existe, poner en 'off'
     let darkMode = localStorage.getItem('dark') || 'on';
@@ -43,21 +43,21 @@ checkDark.addEventListener('change', function () {
 
     //JS Boostrap
     // Example starter JavaScript for disabling form submissions if there are invalid fields
-    (() => {
-        'use strict'
+(() => {
+  'use strict'
 
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-        const forms = document.querySelectorAll('.needs-validation')
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
 
-        // Loop over them and prevent submission
-        Array.from(forms).forEach(form => {
-            form.addEventListener('submit', event => {
-                if (!form.checkValidity()) {
-                    event.preventDefault()
-                    event.stopPropagation()
-                }
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
 
-                form.classList.add('was-validated')
-            }, false)
-        })
-    })()
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
