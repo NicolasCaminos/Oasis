@@ -14,9 +14,9 @@
 
 ## General Info
 
-Sitio web creado para el curso de "Desarrollo web" en Coderhouse. El mismo aún se encuentra en desarrollo.
+Sitio web creado para el curso de "Desarrollo web" en Coderhouse. El mismo aún se encuentra en desarrollo. El mismo se añadira un carrito de compras en el curso Javascript.
 <br>
-EL mismo cuenta con dos ramas de trabajo: Master (donde se aloja el proyecto final) y en la rama V.01 donde se trabajan las updates y fix.
+Ramas de trabajo: EL mismo cuenta con dos ramas de trabajo: Master (donde se aloja el proyecto final) y en la rama V.01 donde se trabajan las updates y fix.
 <br>
 
 ### Entrega 0.1
