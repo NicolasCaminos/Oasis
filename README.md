@@ -105,10 +105,14 @@ Subida al servidor: servicio de hosting para poner el sitio web online en 000web
 <br>
 
  <br>
-<h4>Light Mode</h4>
+
+#### Light Mode
+
 <img src="/images/readme/imagen2.jpg") alt="light" max-width="fit-content" height="500" />
 <br>
+
 <br>
+
 ---
 
 ## Technologies
@@ -130,7 +134,8 @@ Subida al servidor: servicio de hosting para poner el sitio web online en 000web
 <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/></a> <h2>v19.8.1 </h2>
 <br>
 
-## <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <h2>V2.19.6</h2></p>
+<a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <h2>V2.19.6</h2></p>
+<br>
 
 ---
 
