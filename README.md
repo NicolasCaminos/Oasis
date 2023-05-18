@@ -100,7 +100,7 @@ Subida al servidor: servicio de hosting para poner el sitio web online en 000web
 
 #### Night Mode
 
-<p align="left"> <img src="/images/readme/imagen1.jpg") alt="night mode" max-width="fit-content" height="500" />
+<img src="/images/readme/imagen1.jpg") alt="night mode" max-width="fit-content" height="500" />
 <br>
 <br>
 
@@ -108,8 +108,7 @@ Subida al servidor: servicio de hosting para poner el sitio web online en 000web
 <h4>Light Mode</h4>
 <img src="/images/readme/imagen2.jpg") alt="light" max-width="fit-content" height="500" />
 <br>
-
-## </p>
+---
 
 ## Technologies
 
