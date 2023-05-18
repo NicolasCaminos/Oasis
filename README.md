@@ -90,9 +90,9 @@ Aplicación de framework y SEO: Uso correcto de etiquetas y posicionamiento por 
 Subida al servidor: servicio de hosting para poner el sitio web online en 000webhost <a href="https://nicoasis.000webhostapp.com/oasis/index.html" target="_blank" rel="noreferrer"> y githubpages <a href="https://nicolascaminos.github.io/Oasis/" target="_blank" rel="noreferrer"> <img src="https://oasisinet.com/wp-content/uploads/2022/05/cropped-oasis-fav-32x32.png" alt="oasis" width="40" height="40"/> </a><a href="https://nicolascaminos.github.io/Oasis/" target="_blank" rel="noreferrer">https://nicolascaminos.github.io/Oasis/</a>
 <br>
 
-### Screenshot
-
 ---
+
+### Screenshot
 
 #### Night Mode
 
@@ -105,6 +105,7 @@ Subida al servidor: servicio de hosting para poner el sitio web online en 000web
 <img src="/images/readme/imagen2.jpg") alt="light" max-width="fit-content" height="500" />
 <br>
 </p>
+---
 
 ## Technologies
 
@@ -125,11 +126,9 @@ Subida al servidor: servicio de hosting para poner el sitio web online en 000web
 <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/></a> <h2>v19.8.1 </h2>
 <br>
 
-<a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <h2>V2.19.6</h2></p>
+## <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <h2>V2.19.6</h2></p>
 
 ## Installation
-
----
 
 Para instalar los paquetes usados en el proyecto puede utilizar los siguientes comandos.
 
@@ -141,9 +140,9 @@ $ npm install -g node-sass
 
 ```
 
-## Collaboration
-
 ---
+
+## Collaboration
 
 Sebastían Romay
 <br>
@@ -151,9 +150,9 @@ Nicolás Caminos
 <br>
 Mariano Méndez
 
-## FAQs
-
 ---
+
+## FAQs
 
 Puede visitar la web en: <a href="https://nicolascaminos.github.io/Oasis/" target="_blank" rel="noreferrer"> <img src="https://oasisinet.com/wp-content/uploads/2022/05/cropped-oasis-fav-32x32.png" alt="oasis" width="40" height="40"/> </a><a href="https://nicolascaminos.github.io/Oasis/" target="_blank" rel="noreferrer">https://nicolascaminos.github.io/Oasis/</a>
 
