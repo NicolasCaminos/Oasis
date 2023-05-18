@@ -100,14 +100,14 @@ Subida al servidor: servicio de hosting para poner el sitio web online en 000web
 
 <h4> Night Mode</h4>
 
-<img src="images/readme/imagen1.jpg"") alt="night mode" max-width="fit-content" height="500" />
+![Image text](https://nicolascaminos.github.io/Oasis/images/readme/imagen1.jpg)
 <br>
 <br>
 <br>
 
 <h4> Light Mode</h4>
 
-<img src="images/readme/imagen2.jpg") alt="light" max-width="fit-content" height="500" />
+![Image text](https://nicolascaminos.github.io/Oasis/images/readme/imagen2.jpg)
 <br>
 
 ---
