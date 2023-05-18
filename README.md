@@ -108,9 +108,9 @@ Subida al servidor: servicio de hosting para poner el sitio web online en 000web
 <h4>Light Mode</h4>
 <img src="/images/readme/imagen2.jpg") alt="light" max-width="fit-content" height="500" />
 <br>
-</p>
-<br>
 ---
+
+</p>
 
 ## Technologies
 
@@ -133,7 +133,7 @@ Subida al servidor: servicio de hosting para poner el sitio web online en 000web
 
 ## <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <h2>V2.19.6</h2></p>
 
-## <br>
+---
 
 ## Installation
 
@@ -147,7 +147,7 @@ $ npm install -g node-sass
 
 ```
 
-## <br>
+---
 
 ## Collaboration
 
