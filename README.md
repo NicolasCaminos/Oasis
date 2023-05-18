@@ -108,6 +108,7 @@ Subida al servidor: servicio de hosting para poner el sitio web online en 000web
 <h4>Light Mode</h4>
 <img src="/images/readme/imagen2.jpg") alt="light" max-width="fit-content" height="500" />
 <br>
+<br>
 ---
 
 ## Technologies
