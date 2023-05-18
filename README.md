@@ -1,5 +1,7 @@
 # Oasis
 
+---
+
 ## Table of Contents
 
 1. [General Info](#general-info)
@@ -7,6 +9,8 @@
 3. [Installation](#installation)
 4. [Collaboration](#collaboration)
 5. [FAQs](#faqs)
+
+---
 
 ## General Info
 
@@ -105,6 +109,7 @@ Subida al servidor: servicio de hosting para poner el sitio web online en 000web
 <img src="/images/readme/imagen2.jpg") alt="light" max-width="fit-content" height="500" />
 <br>
 </p>
+<br>
 ---
 
 ## Technologies
@@ -128,6 +133,8 @@ Subida al servidor: servicio de hosting para poner el sitio web online en 000web
 
 ## <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <h2>V2.19.6</h2></p>
 
+## <br>
+
 ## Installation
 
 Para instalar los paquetes usados en el proyecto puede utilizar los siguientes comandos.
@@ -140,7 +147,7 @@ $ npm install -g node-sass
 
 ```
 
----
+## <br>
 
 ## Collaboration
 
@@ -149,6 +156,7 @@ Sebastían Romay
 Nicolás Caminos
 <br>
 Mariano Méndez
+<br>
 
 ---
 
@@ -157,3 +165,6 @@ Mariano Méndez
 Puede visitar la web en: <a href="https://nicolascaminos.github.io/Oasis/" target="_blank" rel="noreferrer"> <img src="https://oasisinet.com/wp-content/uploads/2022/05/cropped-oasis-fav-32x32.png" alt="oasis" width="40" height="40"/> </a><a href="https://nicolascaminos.github.io/Oasis/" target="_blank" rel="noreferrer">https://nicolascaminos.github.io/Oasis/</a>
 
 Muchas Gracias.
+<br>
+
+---
