@@ -104,7 +104,6 @@ Subida al servidor: servicio de hosting para poner el sitio web online en 000web
 <br>
 <br>
 <br>
-<br>
 
 #### Light Mode
 
