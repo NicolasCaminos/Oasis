@@ -76,8 +76,10 @@ Layouts
 <br>
 SEO
 <br>
+
 ### Entrega 0.4 Final
-Se hace la entrega de: 
+
+Se hace la entrega de:
 <br>
 HTML: Uso de etiquetas semánticas correspondiente HTML5, legibilidad código, adaptación al framework.
 <br>
@@ -87,6 +89,7 @@ Aplicación de framework y SEO: Uso correcto de etiquetas y posicionamiento por 
 <br>
 Subida al servidor: servicio de hosting para poner el sitio web online en 000webhost <a href="https://nicoasis.000webhostapp.com/oasis/index.html" target="_blank" rel="noreferrer"> y githubpages <a href="https://nicolascaminos.github.io/Oasis/" target="_blank" rel="noreferrer"> <img src="https://oasisinet.com/wp-content/uploads/2022/05/cropped-oasis-fav-32x32.png" alt="oasis" width="40" height="40"/> </a><a href="https://nicolascaminos.github.io/Oasis/" target="_blank" rel="noreferrer">https://nicolascaminos.github.io/Oasis/</a>
 <br>
+
 ---
 
 ### Screenshot
@@ -98,7 +101,7 @@ Subida al servidor: servicio de hosting para poner el sitio web online en 000web
 <p align="left"> <img src="/images/readme/imagen1.jpg") alt="night mode" max-width="fit-content" height="500" />
 <br>
 <br>
----
+
  <br>
 <h4>Light Mode</h4>
 <img src="/images/readme/imagen2.jpg") alt="light" max-width="fit-content" height="500" />
