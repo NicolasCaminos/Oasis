@@ -87,9 +87,9 @@ Aplicación de framework y SEO: Uso correcto de etiquetas y posicionamiento por 
 <br>
 Subida al servidor: servicio de hosting para poner el sitio web online en 000webhost <a href="https://nicoasis.000webhostapp.com/oasis/index.html" target="_blank" rel="noreferrer"> y githubpages <a href="https://nicolascaminos.github.io/Oasis/" target="_blank" rel="noreferrer"> <img src="https://oasisinet.com/wp-content/uploads/2022/05/cropped-oasis-fav-32x32.png" alt="oasis" width="40" height="40"/> </a><a href="https://nicolascaminos.github.io/Oasis/" target="_blank" rel="noreferrer">https://nicolascaminos.github.io/Oasis/</a>
 <br>
-### Screenshot
-
 ---
+
+### Screenshot
 
 #### Night Mode
 
