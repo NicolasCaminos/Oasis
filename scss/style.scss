@@ -1,29 +1,29 @@
 //Variables
-@import "variables/variables.scss";
+@import "variables/variables";
 //base
-@import "base/base.scss";
+@import "base/base";
 //Themes
-@import "themes/_oasis.scss";
+@import "themes/oasis";
 //_typography
-@import "base/_typography.scss";
+@import "base/typography";
 //utils
 @import "base/utils.scss";
 //Loyauts
-@import "layouts/base-layout.scss";
+@import "layouts/base-layout";
 //Vendors
-@import "vendors/vendors.scss";
+@import "vendors/vendors";
 //Index 
-@import "views/index.scss";
+@import "views/index";
 //contact
-@import "views/contact..scss";
+@import "views/contact";
 //discography
-@import "views/discography.scss";
+@import "views/discography";
 //galery
-@import "views/galery.scss";
+@import "views/galery";
 //history
-@import "views/history.scss";
+@import "views/history";
 //Mixin
-@import "mixins/mixins.scss";
+@import "mixins/mixins";
 //FONTS
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
