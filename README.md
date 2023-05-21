@@ -14,7 +14,9 @@
 
 ## General Info
 
-Sitio web creado para el curso de "Desarrollo web" en Coderhouse. El mismo aún se encuentra en proceso de desarrollo ya que se añadira un carrito de compras en el curso Javascript.
+Sitio web creado para el curso de "Desarrollo web" en Coderhouse. Se encuentra aún se encuentra en proceso de desarrollo ya que se añadira un carrito de compras en el curso Javascript.
+<br>
+Este sitio nació con la idea de hacer un tributo a la mejor banda de rock de la historia.
 <br>
 Ramas de trabajo: EL mismo cuenta con dos ramas de trabajo: Master (donde se aloja el proyecto final) y en la rama V.01 donde se trabajan las updates y fix.
 <br>
