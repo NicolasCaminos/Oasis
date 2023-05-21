@@ -18,7 +18,7 @@ Sitio web creado para el curso de "Desarrollo web" en Coderhouse. Se encuentra a
 <br>
 Este sitio nació con la idea de hacer un tributo a la mejor banda de rock de la historia.
 <br>
-Ramas de trabajo: EL mismo cuenta con dos ramas de trabajo: Master (donde se aloja el proyecto final) y en la rama V.01 donde se trabajan las updates y fix.
+Ramas de trabajo: El mismo cuenta con dos ramas de trabajo: Master (donde se aloja el proyecto final) y en la rama V.01 donde se trabajan las updates y fix.
 <br>
 
 ### Entrega 0.1
@@ -31,30 +31,23 @@ Se adjunta .pdf con los wireframes del modelado de mismo:<img src="https://uploa
 <br>
 
 <br>
-Prototipo de la web para tener una idea clara del resultado al que quieres llegar.
-
-Prototipo de la web
-Wireframe/prototipo (wireframe de todas tus páginas para vista mobile y desktop)
-
-Maquetar la web: utilizar los tags, en especial los semánticos, para describir la estructura de la web desde el código.
-Herramientas usadas:
-HTML (uso de etiquetas contenedoras, etiquetas multimedia y etiquetas de texto)
-
-Estilo inicial: comenzar a darle estilo básico a la web aplicando:
-
-CSS (con modificadores de texto, colores, listas y box modeling)
+<li>Prototipo de la web para tener una idea clara del resultado al que quieres llegar.</li>
+<li>Prototipo de la web</li>
+<li>Wireframe/prototipo (wireframe de todas tus páginas para vista mobile y desktop)</li>
+<li>Maquetar la web: utilizar los tags, en especial los semánticos, para describir la estructura de la web desde el código.</li>
+<li>Herramientas usadas:</li>
+<li>HTML (uso de etiquetas contenedoras, etiquetas multimedia y etiquetas de texto)</li>
+<li>Estilo inicial: comenzar a darle estilo básico a la web aplicando:</li>
+<li>CSS (con modificadores de texto, colores, listas y box modeling)</li>
 <br>
 
 ### Entrega 0.2
 
 <br>
-Se agega a el contenido total de la web: index, contacto, galeria, historia y discografía
-
-Se realiza responsive en index, contacto y discografía.
-
-Se añade boostrap, maquetado con flex en algunos items
-
-Se añade favicon a la web
+<li> Se agega a el contenido total de la web: index, contacto, galeria, historia y discografía</li>
+<li>Se realiza responsive en index, contacto y discografía.</li>
+<li>Se añade boostrap, maquetado con flex en algunos items</li>
+<li>Se añade favicon a la web</li>
 <br>
 
 ### Entrega 0.3
