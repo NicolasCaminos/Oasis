@@ -27,7 +27,7 @@ Ramas de trabajo: EL mismo cuenta con dos ramas de trabajo: Master (donde se alo
 
 En el presente documento se encuentra el desarrollo del sistema web.
 
-Se adjunta .pdf con los wireframes del modelado de mismo:<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Google_Drive_icon_%282020%29.svg/1024px-Google_Drive_icon_%282020%29.svg.png" alt="Google Drive" width="40" height="40"/> <a href="https://drive.google.com/file/d/1EN7HS5Z3BR7dMbrloD5K3aoGHRErKdXe/view?usp=sharing" target="_blank" rel="noreferrer">Google Drive</a> o bien podrá visto desde el repositorio en: <a href="Nicolás_Caminos-Oasis.pdf" target="_blank" rel="noreferrer">aquí</a>
+Se adjunta .pdf con los wireframes del modelado de mismo:<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Google_Drive_icon_%282020%29.svg/1024px-Google_Drive_icon_%282020%29.svg.png" alt="Google Drive" width="40" height="40"/> <a href="https://drive.google.com/file/d/1EN7HS5Z3BR7dMbrloD5K3aoGHRErKdXe/view?usp=sharing" target="_blank" rel="noreferrer">Google Drive</a> o bien podrá visto desde el repositorio en: <a href="Nicolás_Caminos-Oasis.pdf" target="_blank" rel="noreferrer"><img src="https://es.wikipedia.org/wiki/PDF#/media/Archivo:PDF_file_icon.svg" alt="Google Drive" width="40" height="40"/>.pdf</a>
 <br>
 
 <br>
