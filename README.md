@@ -55,38 +55,41 @@ Se adjunta .pdf con los wireframes del modelado de mismo:<img src="https://uploa
 Se solucionan bug de responsive, además se agrega contenido:
 
 <br>
-Themes night/light
+<li>Themes night/light</li>
 <br>
-Variables
+<li>Variables</li>
 <br>
-Nesting
+<li>Nesting</li>
 <br>
-Partials/ Views
+<li>Partials</li>
 <br>
-Mixin
+<li> Views</li>
 <br>
-Extend
+<li>Mixin</li>
 <br>
-vendors
+<li>Extend</li>
 <br>
-Base
+<li>vendors</li>
 <br>
-Layouts
+<li>Base</li>
 <br>
-SEO
+<li>Layouts</li>
+<br>
+<li>SEO</li>
 <br>
 
 ### Entrega 0.4 Final
 
 Se hace la entrega de:
 <br>
-HTML: Uso de etiquetas semánticas correspondiente HTML5, legibilidad código, adaptación al framework.
+
+<li>HTML: Uso de etiquetas semánticas correspondiente HTML5, legibilidad código, adaptación al framework.</li>
 <br>
-Estilo final de la web: Aplicando los criterios trabajados respecto a estructura visual, diseño atractivo y responsive, y reciclado de código. Se usaron librerias: Bootstrap, Sass, Css, JavaScript.
+<li>Estilo final de la web: Aplicando los criterios trabajados respecto a estructura visual, diseño atractivo y responsive, y reciclado de código. Se usaron librerias: Bootstrap, Sass, Css, JavaScript.</li>
 <br>
-Aplicación de framework y SEO: Uso correcto de etiquetas y posicionamiento por medio de etiquetas: keyword, description y author.
+<li>Aplicación de framework y SEO: Uso correcto de etiquetas y posicionamiento por medio de etiquetas: keyword, description y author.</li>
 <br>
-Subida al servidor: servicio de hosting para poner el sitio web online en 000webhost <a href="https://nicoasis.000webhostapp.com/oasis/index.html" target="_blank" rel="noreferrer"> https://nicoasis.000webhostapp.com/oasis/index.html</a> y Github Pages <a href="https://nicolascaminos.github.io/Oasis/" target="_blank" rel="noreferrer"></a><a href="https://nicolascaminos.github.io/Oasis/" target="_blank" rel="noreferrer">https://nicolascaminos.github.io/Oasis/</a>
+<li>Subida al servidor: servicio de hosting para poner el sitio web online en 000webhost <a href="https://nicoasis.000webhostapp.com/oasis/index.html" target="_blank" rel="noreferrer"> https://nicoasis.000webhostapp.com/oasis/index.html</a> y Github Pages <a href="https://nicolascaminos.github.io/Oasis/" target="_blank" rel="noreferrer"></a><a href="https://nicolascaminos.github.io/Oasis/" target="_blank" rel="noreferrer">https://nicolascaminos.github.io/Oasis/</a></li>
 <br>
 
 ---
