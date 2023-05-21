@@ -137,11 +137,9 @@ $ npm install --save sanitize.css
 
 ## Collaboration
 
-Sebastían Romay
-<br>
-Nicolás Caminos
-<br>
-Mariano Méndez
+<li>Sebastían Romay</li>
+<li>Nicolás Caminos</li>
+<li>Mariano Méndez</li>
 <br>
 
 ---
