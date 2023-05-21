@@ -27,7 +27,7 @@ Ramas de trabajo: EL mismo cuenta con dos ramas de trabajo: Master (donde se alo
 
 En el presente documento se encuentra el desarrollo del sistema web.
 
-Se adjunta .pdf con los wireframes del modelado de mismo:<img src="https://img2.freepng.es/20180320/bbq/kisspng-google-drive-computer-icons-google-docs-transparent-google-drive-png-5ab1174be66b49.3265679615215552759438.jpg" alt="Google Drive" width="40" height="40"/> <a href="https://drive.google.com/file/d/1EN7HS5Z3BR7dMbrloD5K3aoGHRErKdXe/view?usp=sharing" target="_blank" rel="noreferrer">Google Drive</a>
+Se adjunta .pdf con los wireframes del modelado de mismo:<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Google_Drive_icon_%282020%29.svg/1024px-Google_Drive_icon_%282020%29.svg.png" alt="Google Drive" width="40" height="40"/> <a href="https://drive.google.com/file/d/1EN7HS5Z3BR7dMbrloD5K3aoGHRErKdXe/view?usp=sharing" target="_blank" rel="noreferrer">Google Drive</a>
 <br>
 
 <br>
