@@ -1,3 +1,4 @@
+
 // Escuchar el tema preferido del cliente en su sistema
 const preferedColorScheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'light' : 'dark';
 // Obtener el checkbox
@@ -14,7 +15,7 @@ slider.addEventListener('click', () => {
 });
 setTheme(localStorage.getItem('theme') || preferedColorScheme);
 
-
+//JS Boostrap
 document.addEventListener('DOMContentLoaded', () => {
     // Buscar valor en localStorage, si no existe, poner en 'off'
     let darkMode = localStorage.getItem('dark') || 'off';
