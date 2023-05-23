@@ -32,10 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         darkMode = (checkDark.checked) ? 'on' : 'off';
         // Guardar variable en localStorage
         localStorage.setItem('dark', darkMode);
+
+        window.localStorage.setItem(slider.id, slider.checked)
     })
-})
-
-
-checkDark.addEventListener('change', function () {
-    window.localStorage.setItem(slider.id, slider.checked)
 })
